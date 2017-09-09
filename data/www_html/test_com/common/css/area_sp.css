@@ -1,0 +1,255 @@
+@charset "utf-8";
+
+@media screen and (max-width: 767px){
+	
+.telfree {
+	float:right;
+	top:22px;
+}
+	
+/*地域ページキービジュアル*/
+.key_pc{
+	display:none;
+}
+.key_sp{
+	display:block;
+	margin:0 0 5px 0;
+}
+.cv_area_pc{
+	display:none;
+}
+.cv_area_sp{
+	display:block;
+	margin:0 0 20px 0;
+}
+.cv_area_sp .cv_area_text {
+    position: relative;
+    height: 0px;
+    margin-top: -15%;
+    margin-left: 36%;
+    font-size: 2.7vw;
+    font-weight: bold;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    color: #000;
+}
+.cv_area_sp .cv_area {
+    position: relative;
+}
+.cv_area_sp .btn2{
+	margin-top: 15%;
+}
+
+/*地域ページ*/
+.technician{
+	margin:0 0 30px 0;
+	font-size:16px;
+	line-height:2;
+	padding: 0 0 20px 0;
+	background: #ffe9e9;
+}
+.technician h2{
+	margin:0 0 6px 0;
+	padding: 10px 8px 10px 63px;
+	background: url(../../../img/about/area/common/bg_h2_sp_area.png) no-repeat 10px 50%,-webkit-linear-gradient(top, #e43030 0%,#c51717 68%);
+	background: url(../../../img/about/area/common/bg_h2_sp_area.png) no-repeat) 10px 50%,-moz-linear-gradient(top, #e43030 0%, #c51717 68%),;
+	background: url(../../../img/about/area/common/bg_h2_sp_area.png) no-repeat 10px 50%,linear-gradient(to bottom, #e43030 0%,#c51717 68%),;
+	border:1px solid #c51717;
+	-webkit-box-shadow:inset 0px 0px 1px rgba(255,255,255,1);
+	-moz-box-shadow:inset 0px 0px 1px rgba(255,255,255,1);
+	box-shadow:inset 0px 0px 1px rgba(255,255,255,1);
+	font-size:130.4%;
+	font-weight:bold;
+	color:#ffffff;
+	line-height:28px;
+	
+}
+.technician .area_block{
+	overflow: hidden;
+    margin: 20px 20px 0;
+    padding: 14px;
+    background: #ffffff;
+    border: 2px solid #f2d8d8;
+}
+.technician .area_staff{
+	float:none;
+	text-align:center;
+	margin:0 0 20px 0;
+}
+.technician table{
+	float:none;
+	width:100%;
+	margin:0 0 25px 0;
+}
+.technician table th{
+	border-bottom:dotted 1px #b2b2b2;
+	text-align:left;
+	width:40%;
+	padding:18px 0 14px 0;
+	vertical-align:top;
+	font-weight:bold;
+	line-height:1.4;
+}
+.technician table td{
+	border-bottom:dotted 1px #b2b2b2;
+	padding:18px 0 14px 0;
+	vertical-align:top;
+	line-height:1.4;
+}
+.technician table tr:first-of-type th,
+.technician table tr:first-of-type td{
+	padding:0 0 14px 0;
+}
+.technician table tr:last-of-type th,
+.technician table tr:last-of-type td{
+	border-bottom:none;
+}
+.technician h3{
+	clear:both;
+	background:#efefef;
+	padding:10px 0 10px 15px;
+	margin-bottom:20px;
+	font-weight:bold;
+}
+/*.technician ul{
+	font-size:14px;
+}
+.technician ul li{
+	display:block;
+	vertical-align:middle;
+    width: 100%;
+    border-bottom: 1px dotted #b2b2b2;
+    padding: 20px 0 20px 75px;
+    margin: 0;
+	line-height:1.6;
+}
+.technician ul li:nth-child(2n){
+    margin: 0;
+}
+.technician ul li:last-child{
+	border-bottom:none;
+}
+.technician ul .key_normal{
+	background:url(../../../img/about/area/common/bg_icon_key.png) no-repeat 0 50%;
+}
+.technician ul .key_small{
+	background:url(../../../img/about/area/common/bg_icon_key_s.png) no-repeat 3px 50%;
+}
+.technician ul .car{
+	background:url(../../../img/about/area/common/bg_icon_car.png) no-repeat 0 50%;
+}
+.technician ul .bike{
+	background:url(../../../img/about/area/common/bg_icon_bike.png) no-repeat 0 50%;
+}
+.technician ul .safe{
+	background:url(../../../img/about/area/common/bg_icon_safe.png) no-repeat 9px 50%;
+}
+.technician ul .camera{
+	background:url(../../../img/about/area/common/bg_icon_camera.png) no-repeat 3px 50%;
+}*/
+/*使用可能業務*/
+.icon_list li{
+	float:left;
+	overflow:hidden;
+	width:22.5%;
+    margin:0 3.1% 10px 0;
+}
+.icon_list li:nth-child(4n){
+    margin:0 0 10px 0;
+}
+.icon_list li img{
+	max-width:100%;
+}
+
+#area .area_box{
+	background: url(../../../img/about/area/common/bg_area_box.png) repeat-x top;
+	border-top:4px solid #aa2222;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	overflow:hidden;
+	margin:0 0 20px 0;
+	padding:0 19px 0;
+}
+#area .area_box h2{
+	border-bottom:1px solid #ccc;
+	font-size:20px;
+	font-weight:bold;
+	margin:0 0 20px 0;
+	padding:30px 0 30px 55px;
+}
+#area .area_box .block{
+	width:100%;
+	float:none;
+	font-size:14px;
+}
+#area .area_box .block > p{
+	line-height:2;
+	margin-bottom:20px;
+}
+#area .area_box .image{
+	float:none;
+	margin:0 0 20px 0;
+	width:100%;
+	text-align:center;
+}
+#area .trouble h2{
+	 background:url(../../../img/about/area/common/bg_icon_trouble.png) no-repeat 0 50%;
+}
+#area .anything h2{
+	 background:url(../../../img/about/area/common/bg_icon_anything.png) no-repeat 0 50%;
+}
+#area .event h2{
+	 background:url(../../../img/about/area/common/bg_icon_event.png) no-repeat 0 50%;
+}
+#area .spot h2{
+	 background:url(../../../img/about/area/common/bg_icon_spot.png) no-repeat 0 50%;
+}
+#area .spot h3{
+	 background:url(../../../img/about/area/common/bg_icon_spot_name.png) no-repeat 0 0;
+	 font-weight:bold;
+	 font-size:16px;
+	 padding:3px 0 10px 28px;
+	 width:356px;
+	 float:none;
+}
+#area .key_trouble h2{
+	 background:url(../../../img/about/area/common/bg_icon_key_trouble.png) no-repeat 0 50%;
+}
+#area .ward h2{
+	 background:url(../../../img/about/area/common/bg_icon_ward.png) no-repeat 0 50%;
+}
+#area .info h2{
+	 background:url(../../../img/about/area/common/bg_icon_info.png) no-repeat 0 50%;
+}
+
+/*近隣エリアで探す*/
+.area_search{
+	background:#ededed;
+}
+
+.area_search__in{
+	width:1000px;
+	margin:0 auto;
+	padding:20px 0;
+}
+
+.area_search__ttl{
+	font-weight:bold;
+	margin:0 0 18px 0;
+	font-size:14px;
+}
+
+.area_search ul li{
+	display:inline-block;
+	margin:0 8px 10px 0;
+	padding:0 10px 0 0;
+	font-size:12px;
+	border-right:1px solid #ccc;
+}
+
+.area_search ul li a{
+	color:#1F33CB;
+}
+
+
+}

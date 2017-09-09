@@ -1,0 +1,169 @@
+﻿@charset "utf-8";
+
+
+/* ========================================================================
+		Reset Styles
+======================================================================== */
+html, body, div, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, address, small,
+ul, ol, li, dl, dt, dd,
+table, th, td,
+form, fieldset{
+	font-weight: normal;
+	font-family: "游ゴシック", YuGothic, "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", sans-serif;
+	line-height: 1.2;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* HTML5 */
+article, aside, figure, figcaption, footer, header,
+main, nav, section, summary{
+	display: block;
+	margin: 0;
+}
+
+
+/* Base Styles */
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	font: 13px/1.231 "游ゴシック", YuGothic, "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", sans-serif;
+	*font-size: small;
+	*font: x-small;
+	color: #333333;
+	-webkit-text-size-adjust: 100%;
+}
+
+select,input,button,textarea{
+	font: 100% "游ゴシック", YuGothic, "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", sans-serif;
+	color: #333333;
+}
+
+pre,code,kbd,samp{
+	font-family: monospace;
+	*font-size: 100%;
+	line-height: 100%;
+}
+
+img,
+iframe{
+	border: none;
+	vertical-align: bottom;
+}
+
+table{
+	width: 100%;
+	font-size: inherit;
+	font: 100%;
+	border: none;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+label{
+	cursor: pointer;
+}
+
+input,
+textarea{
+	padding: 0;
+	vertical-align: middle;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+textarea{
+	padding: 0;
+}
+
+/* Firefox・IE スピンボタン非表示 */
+input[type="number"] {
+    -moz-appearance:textfield;
+}
+
+/* Chrome・Safari スピンボタン非表示 */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button,
+input[type="image"],
+input[type="submit"],
+input[type="button"],
+input[type="radio"],
+input[type="checkbox"]{
+	cursor: pointer;
+}
+
+select,
+select option,
+select optgroup{
+	padding: 0 4px;
+	font-style: normal;
+}
+
+ol,ul{
+	list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6,small{
+	font-size: 100%;
+}
+
+address{
+	font-style: normal;
+} 
+
+a,
+input{
+	outline: none;
+}
+
+
+/* Basic Text Link */
+a{
+	color: #333333;	text-decoration: none;
+}
+a:link{
+	color: #333333;	text-decoration: none;
+}
+a:visited{
+	color: #333333;	text-decoration: none;
+}
+a:hover{
+	color: #333333;	text-decoration: underline;
+}
+a:focus{
+	color: #333333;	text-decoration: none;
+}
+a:active{
+	color: #333333;	text-decoration: none;
+}
+
+
+/* Common */
+img{
+	max-width:100%;
+	height:auto;
+}
+
+ul,
+ol,
+.column{
+	overflow:hidden;
+	position:relative;
+}
+

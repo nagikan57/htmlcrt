@@ -1,0 +1,935 @@
+@charset "utf-8";
+
+@media screen and (max-width: 767px){
+
+/* ========================================================================
+	layout
+======================================================================== */
+.pc,
+#path{
+	display:none;
+}
+
+#overlay{
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:99;
+}
+
+
+/* ========================================================================
+	header
+======================================================================== */
+header p.tel{
+	display:none;
+}
+
+header{
+	position:relative;
+	z-index:100;
+	height:75px;
+	border-top:4px solid #dc0000;
+}
+
+header h1{
+	padding:4px 0 4px 5px;
+	font-size:76.9%;
+}
+
+header p.logo{
+	float:left;
+	padding:4px 6px 0 5px;
+}
+
+header p.logo img{
+	width:128px;
+}
+
+header p.service img{
+	float:left;
+	width:93px;
+}
+
+.telfree {
+	float:right;
+	top:22px;
+}
+/* ----------------------------------------
+	nav
+---------------------------------------- */
+#menu .dl-trigger{
+	position:absolute;
+	top:22px;
+	right:47px;
+	cursor:pointer;
+}
+
+#menu .dl-menu{
+	position:absolute;
+	top:71px;
+	left:0px;
+	width:100%;
+	background:#fcefef;
+	padding:10px;
+}
+
+#menu .dl-menu > ul{
+	margin:0 0 10px 0;
+	background:#ffffff;
+	border-top:1px solid #bfbfbf;
+}
+
+#menu ul li a{
+	display:block;
+	padding:0 10px 0 7px;
+	background:-webkit-linear-gradient(top,  #ffffff 0%,#ffffff 36%,#e0e0e0 100%);
+	background:-moz-linear-gradient(top,  #ffffff 0%, #ffffff 36%, #e0e0e0 100%);
+	background:linear-gradient(to bottom,  #ffffff 0%,#ffffff 36%,#e0e0e0 100%);
+	border:1px solid #bfbfbf;
+	border-top:none;
+	font-size:92.3%;
+	font-weight:bold;
+	line-height:35px;
+	text-decoration:none;
+}
+
+#menu ul li span{
+	padding:0 0 0 21px;
+	background:url(../../img/common/menu/icon_home.png) no-repeat left center;
+	-webkit-background-size:15px;
+	-moz-background-size:15px;
+	background-size:15px;
+}
+
+#menu ul li:nth-child(2) span{ background-image:url(../../img/common/menu/icon_trouble.png); }
+#menu ul li:nth-child(3) span{ background-image:url(../../img/common/menu/icon_type.png); }
+#menu ul li:nth-child(4) span{ background-image:url(../../img/common/menu/icon_keytype.png); }
+#menu ul li:nth-child(5) span{ background-image:url(../../img/common/menu/icon_price.png); }
+#menu ul li:nth-child(6) span{ background-image:url(../../img/common/menu/icon_service.png); }
+#menu ul li:nth-child(7) span{ background-image:url(../../img/common/menu/icon_about.png); }
+
+#menu ul li ul li{
+	float:left;
+	width:50%;
+}
+
+#menu ul li ul li a{
+	padding:0 10px;
+	background:#ffffff;
+	font-size:76.9%;
+	font-weight:normal;
+	line-height:1.2;
+}
+
+#menu ul li ul li:nth-child(2n) a{
+	border-left:none;
+}
+
+#menu ul li ul li span{
+	display:table-cell;
+	height:30px;
+	padding:0 0 0 11px;
+	vertical-align:middle;
+}
+
+#menu ul li ul li:nth-child(n+1) span{
+	background:url(../../img/common/menu/arrow.png) no-repeat left center;
+	-webkit-background-size:5px 9px;
+	-moz-background-size:5px 9px;
+	background-size:5px 9px;
+}
+
+#menu ul li ul li:last-child{
+	width:100%;
+}
+
+#menu ul li:nth-child(3) ul li:last-child,
+#menu ul li:nth-child(4) ul li:last-child{
+	width:50%;
+}
+
+
+/* close
+----------------------------------- */
+#menu .dl-menu .close{
+	background:#b32020;
+	text-align:center;
+	font-size:76.9%;
+	color:#ffffff;
+	line-height:34px;
+	cursor:pointer;
+}
+
+#menu .dl-menu .close span{
+	display:inline-block;
+	padding:0 0 0 20px;
+	background:url(../../img/common/menu/icon_close.png) no-repeat left center;
+	-webkit-background-size:14px;
+	-moz-background-size:14px;
+	background-size:14px;
+}
+
+
+/* dlmenu
+----------------------------------- */
+.dl-menuwrapper .dl-menu{
+	position:absolute;
+	opacity:0;
+	pointer-events:none;
+	-webkit-transform:translateY(10px);
+	-moz-transform:translateY(10px);
+	transform:translateY(10px);
+	-webkit-backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	backface-visibility:hidden;
+}
+
+.dl-menuwrapper .dl-menu.dl-menu-toggle{
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	transition:all 0.3s ease;
+}
+
+.dl-menuwrapper .dl-menu.dl-menuopen{
+	opacity:1;
+	pointer-events:auto;
+	-webkit-transform:translateY(0px);
+	-moz-transform:translateY(0px);
+	transform:translateY(0px);
+}
+
+
+/* ========================================================================
+	contents
+======================================================================== */
+#contents .key{
+	padding:0 0 10px 0;
+}
+
+#contents .key img{
+	width:100%;
+}
+
+
+/* ----------------------------------------
+	widget_cv（共通お問い合わせ）
+---------------------------------------- */
+.widget_cv{
+	padding:0 0 20px 0;
+}
+
+.widget_cv img{
+	width:100%;
+}
+
+
+/* ========================================================================
+	main
+======================================================================== */
+main .title{
+	margin:0 0 15px 5px;
+	padding:2px 0 2px 5px;
+	border-left:2px solid #c90000;
+	font-size:115.4%;
+	font-weight:bold;
+}
+
+
+/* ----------------------------------------
+	widget_btn（共通ボタン［詳細はこちら］）
+---------------------------------------- */
+.widget_btn a{
+	display:block;
+	background:url(../../img/common/arrow_03.png) no-repeat 8px center, -webkit-linear-gradient(top,  #f0b2b2 0%,#a91f1f 40%,#d94d4d 100%);
+	background:url(../../img/common/arrow_03.png) no-repeat 8px center, -moz-linear-gradient(top,  #f0b2b2 0%, #a91f1f 40%, #d94d4d 100%);
+	background:url(../../img/common/arrow_03.png) no-repeat 8px center, linear-gradient(to bottom,  #f0b2b2 0%,#a91f1f 40%,#d94d4d 100%);
+	-webkit-background-size:13px auto, auto;
+	-moz-background-size:13px auto, auto;
+	background-size:13px auto, auto;
+	border:1px solid #b82b2b;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	-webkit-box-shadow:0px 3px 5px rgba(0,0,15,0.3);
+	-moz-box-shadow:0px 3px 5px rgba(0,0,15,0.3);
+	box-shadow:0px 3px 5px rgba(0,0,15,0.3);
+	text-align:center;
+	font-size:107.7%;
+	font-weight:bold;
+	color:#ffffff;
+	line-height:38px;
+	text-decoration:none;
+}
+
+
+/* ----------------------------------------
+	widget_bnr（共通バナー）
+---------------------------------------- */
+.widget_bnr{
+	padding:0 10px;
+}
+
+.widget_bnr li{
+	float:left;
+	margin:0 0 6px 0;
+}
+
+.widget_bnr li:nth-child(1),
+.widget_bnr li:nth-child(2){
+	width:50%;
+}
+
+.widget_bnr li:nth-child(1){ padding-right:3px; }
+.widget_bnr li:nth-child(2){ padding-left:3px; }
+
+.widget_bnr li img{
+	width:100%;
+}
+
+
+/* ----------------------------------------
+	widget_company（株式会社鍵はこんな会社です）
+---------------------------------------- */
+.widget_company h2{
+	margin:0 0 10px 0;
+	padding:0 0 0 11px;	
+	background:url(../../img/common/main/company/bg_h2.png) no-repeat 3px center, -webkit-linear-gradient(top,  #ffffff 0%,#d3d3d3 100%);
+	background:url(../../img/common/main/company/bg_h2.png) no-repeat 3px center,-moz-linear-gradient(top,  #ffffff 0%, #d3d3d3 100%);
+	background:url(../../img/common/main/company/bg_h2.png) no-repeat 3px center,linear-gradient(to bottom,  #ffffff 0%,#d3d3d3 100%);
+	-webkit-background-size:4px 23px, auto;
+	-moz-background-size:4px 23px, auto;
+	background-size:4px 23px, auto;
+	border:1px solid #afafaf;
+	font-size:115.4%;
+	font-weight:bold;
+	line-height:30px;
+}
+
+.widget_company ul{
+	padding:0 10px 12px;
+}
+
+.widget_company ul li{
+	float:left;
+	width:33.3%;
+	padding:0 4px 8px;
+	text-align:center;
+}
+
+.widget_company ul li img{
+	width:94px;
+}
+
+
+/* ----------------------------------------
+	widget_blog（最新ブログ）
+---------------------------------------- */
+.widget_blog ul li p.image{
+	display:none;
+}
+
+.widget_blog h2{
+	padding:0 8px 0 34px;
+	background:url(../../img/common/main/blog/bg_h2_sp.png) no-repeat 5px center, -webkit-linear-gradient(top,  #e43030 0%,#c51717 68%);
+	background:url(../../img/common/main/blog/bg_h2_sp.png) no-repeat 5px center, -moz-linear-gradient(top,  #e43030 0%, #c51717 68%);
+	background:url(../../img/common/main/blog/bg_h2_sp.png) no-repeat 5px center, linear-gradient(to bottom,  #e43030 0%,#c51717 68%);
+	-webkit-background-size:26px 16px, auto;
+	-moz-background-size:26px 16px, auto;
+	background-size:26px 16px, auto;
+	border:1px solid #c51717;
+	-webkit-box-shadow:inset 0px 0px 1px rgba(255,255,255,1);
+	-moz-box-shadow:inset 0px 0px 1px rgba(255,255,255,1);
+	box-shadow:inset 0px 0px 1px rgba(255,255,255,1);
+	font-size:115.4%;
+	font-weight:bold;
+	color:#ffffff;
+	line-height:28px;
+}
+
+.widget_blog ul li{
+	overflow:hidden;
+	margin:0 10px;
+	padding:10px 0;
+	border-bottom:1px dotted #000000;
+	font-size:92.3%;
+}
+
+.widget_blog ul li:last-child{
+	border:none;
+	padding-bottom:16px;
+}
+
+.widget_blog ul li a{
+	display:block;
+}
+
+.widget_blog ul li h3{
+	padding:0 0 6px 0;
+	font-weight:bold;
+	line-height:1.2;
+}
+
+.widget_blog ul li p{
+	line-height:1.2;
+}
+
+
+/* time
+---------------------------------------- */
+.widget_blog ul li time{
+	float:left;
+	padding:0 4px 6px 0;
+	font-size:83.3%;
+	line-height:18px;
+}
+
+
+/* category
+---------------------------------------- */
+.widget_blog ul li .category{
+	display:inline-block;
+	overflow:hidden;
+	padding:0 0 2px 0;
+}
+
+.widget_blog ul li .category span{
+	float:left;
+	margin:0 4px 4px 0;
+	padding:0 4px;
+	background:#72bb3c;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	font-size:83.3%;
+	color:#ffffff;
+	line-height:18px;
+}
+
+
+/* ----------------------------------------
+	widget_trouble（鍵交換でよくご依頼いただく作業例）
+---------------------------------------- */
+.widget_trouble p{
+	display:none;
+}
+
+.widget_trouble h2{
+	padding:0 8px 0 34px;
+	background:url(../../img/common/main/trouble/bg_h2_sp.png) no-repeat 7px center, -webkit-linear-gradient(top,  #e43030 0%,#c51717 68%);
+	background:url(../../img/common/main/trouble/bg_h2_sp.png) no-repeat 7px center, -moz-linear-gradient(top,  #e43030 0%, #c51717 68%);
+	background:url(../../img/common/main/trouble/bg_h2_sp.png) no-repeat 7px center, linear-gradient(to bottom,  #e43030 0%,#c51717 68%);
+	-webkit-background-size:19px 20px, auto;
+	-moz-background-size:19px 20px, auto;
+	background-size:19px 20px, auto;
+	border:1px solid #c51717;
+	-webkit-box-shadow:inset 0px 0px 1px rgba(255,255,255,1);
+	-moz-box-shadow:inset 0px 0px 1px rgba(255,255,255,1);
+	box-shadow:inset 0px 0px 1px rgba(255,255,255,1);
+	font-size:115.4%;
+	font-weight:bold;
+	color:#ffffff;
+	line-height:28px;
+}
+
+.widget_trouble ul{
+	padding:14px 10px 16px;
+}
+
+.widget_trouble ul li{
+	padding:0 0 0 20px;
+	background:url(../../img/common/main/trouble/icon.png) no-repeat left 5px;
+	-webkit-background-size:12px;
+	-moz-background-size:12px;
+	background-size:12px;
+	font-size:92.3%;
+	font-weight:bold;
+	line-height:1.6;
+}
+
+.widget_trouble ul li a{
+	text-decoration:underline;
+}
+
+
+/* ----------------------------------------
+	widget_staff（スタッフ）
+---------------------------------------- */
+.widget_staff{
+	margin:0 10px 8px;
+	padding:5px;
+	background:#54aa15;
+}
+
+.widget_staff .box{
+	overflow:hidden;
+	margin:0 0 5px 0;
+	padding:10px;
+	background:#ffffff;
+	border:1px solid #e5e5e5;
+}
+
+.widget_staff h2{
+	overflow:hidden;
+	padding:4px 0 10px 0;
+	font-weight:bold;
+}
+
+.widget_staff h2 span{
+	display:block;
+	margin:0 0 6px 0;
+	padding:0 0 0 12px;
+	background:url(../../img/common/main/staff/icon.png) no-repeat left center;
+	-webkit-background-size:9px 12px;
+	-moz-background-size:9px 12px;
+	background-size:9px 12px;
+	font-size:76.9%;
+}
+
+.widget_staff .profile{
+	overflow:hidden;
+	padding:0 0 6px 0;
+}
+
+.widget_staff .profile span{
+	float:left;
+	margin:0 4px 4px 0;
+	padding:0 4px;
+	background:#ff7a00;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	font-size:76.9%;
+	font-weight:bold;
+	color:#ffffff;
+	line-height:18px;
+}
+
+.widget_staff p{
+	overflow:hidden;
+	width:100%;
+	font-size:92.3%;
+	line-height:1.4;
+}
+
+.widget_staff p.lead{
+	width:auto;
+	padding:0 0 10px 0;
+	font-size:115.4%;
+	font-weight:bold;
+	color:#c10000;
+	line-height:1.3;
+}
+
+.widget_staff p.image{
+	float:left;
+	width:auto;
+	margin:0 10px 10px 0;
+	padding:0;
+	border:2px solid #ffffff;
+	-webkit-box-shadow:0px 0px 2px rgba(84,84,84,0.5);
+	-moz-box-shadow:0px 0px 2px rgba(84,84,84,0.5);
+	box-shadow:0px 0px 2px rgba(84,84,84,0.5);
+}
+
+.widget_staff p.image img{
+	width:102px;
+}
+
+
+/* section（お客様の声）
+---------------------------------------- */
+.widget_staff section{
+	padding:10px;
+	background:#ffffff;
+	border:1px solid #e5e5e5;
+}
+
+.widget_staff section h3{
+	padding:0 0 10px 0;
+}
+
+.widget_staff section h3 img{
+	width:105px;
+}
+
+.widget_staff section p{
+	overflow:hidden;
+}
+
+.widget_staff section p img{
+	float:right;
+	margin:0 0 0 10px;
+}
+
+
+/* ----------------------------------------
+	widget_flow（鍵開けサービスの流れ）
+---------------------------------------- */
+.widget_flow p,
+.widget_flow ol li span{
+	display:none;
+}
+
+.widget_flow{
+	margin:0 0 12px 0;
+	background:#f1f1f1;
+}
+
+.widget_flow h2{
+	padding:0 0 2px 0;
+}
+
+.widget_flow h2 img{
+	width:100%;
+}
+
+.widget_flow ol{
+	padding:0 7px 4px;
+}
+
+.widget_flow ol li{
+	float:left;
+	width:50%;
+	margin:0 0 8px 0;
+	padding:0 5px;
+	text-align:center;
+	font-size:76.9%;
+	font-weight:bold;
+	line-height:1.4;
+}
+
+.widget_flow ol li img{
+	display:block;
+	width:143px;
+	margin:0 auto 4px;
+}
+
+
+/* ----------------------------------------
+	widget_hope（どのような作業がご希望ですか？）
+---------------------------------------- */
+.widget_hope{
+	padding:0 0 15px 0;
+}
+
+.widget_hope h2{
+	background:-webkit-linear-gradient(top,  #f8781e 0%,#ff5a00 100%);
+	background:-moz-linear-gradient(top,  #f8781e 0%, #ff5a00 100%);
+	background:linear-gradient(to bottom,  #f8781e 0%,#ff5a00 100%);
+	text-align:center;
+	font-size:130.8%;
+	font-weight:bold;
+	color:#ffffff;
+	line-height:37px;
+}
+
+.widget_hope ul{
+	border-top:1px solid #d5cbcb;
+}
+
+.widget_hope ul li a{
+	display:block;
+	padding:5px;
+	background:-webkit-linear-gradient(top,  #fafafa 0%,#ededed 100%);
+	background:-moz-linear-gradient(top,  #fafafa 0%, #ededed 100%);
+	background:linear-gradient(to bottom,  #fafafa 0%,#ededed 100%);
+	border:1px solid #d5cbcb;
+	border-top:none;
+	font-size:130.8%;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.widget_hope ul li img{
+	width:60px;
+	margin:0 12px 0 0;
+	vertical-align:middle;
+}
+
+
+/* ----------------------------------------
+	widget_type（どんな場所でも鍵開けできる技術があります！）
+---------------------------------------- */
+.widget_type{
+	margin:0 5px 15px;
+}
+
+.widget_type ul{
+	padding:0 0 15px 1%;
+	background:#aa2222;
+}
+
+.widget_type ul li{
+	float:left;
+	width:48%;
+	margin:0 0 5px 1%;
+}
+
+.widget_type ul li a{
+	display:block;
+	overflow:hidden;
+	padding:0 0 0 6px;
+	background:#ffffff;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	text-align:center;
+	font-size:92.3%;
+	font-weight:bold;
+	line-height:42px;
+	text-decoration:none;
+}
+
+.widget_type ul li img{
+	float:left;
+	width:auto;
+	height:28px;
+	margin:7px 0 0 0;
+}
+
+
+/* ========================================================================
+	aside
+======================================================================== */
+aside .bnr{
+	display:none;
+}
+
+
+/* ----------------------------------------
+	tv
+---------------------------------------- */
+aside .tv{
+	padding:0 10px 6px;
+}
+
+aside .tv img{
+	width:100%;
+}
+
+
+/* ----------------------------------------
+	quiz
+---------------------------------------- */
+aside .quiz{
+	overflow:hidden;
+	margin:0 10px 10px;
+}
+
+aside .quiz img{
+	width:100%;
+}
+
+aside .quiz h2{
+	float:left;
+	width:65%;
+}
+
+aside .quiz p{
+	float:left;
+	width:17.5%;
+}
+
+
+/* ----------------------------------------
+	choose
+---------------------------------------- */
+aside .choose{
+	padding:0 14px 14px;
+}
+
+aside .choose ul li{
+	padding:0 0 6px 0;
+}
+
+aside .choose ul li img{
+	width:100%;
+}
+
+
+/* ----------------------------------------
+	ranking
+---------------------------------------- */
+aside .ranking h2{
+	margin:0 0 6px 0;
+	padding:0 8px;
+	background:-webkit-linear-gradient(top,  #e43030 0%,#c51717 68%);
+	background:-moz-linear-gradient(top,  #e43030 0%, #c51717 68%);
+	background:linear-gradient(to bottom,  #e43030 0%,#c51717 68%);
+	border:1px solid #c51717;
+	-webkit-box-shadow:inset 0px 0px 1px rgba(255,255,255,1);
+	-moz-box-shadow:inset 0px 0px 1px rgba(255,255,255,1);
+	box-shadow:inset 0px 0px 1px rgba(255,255,255,1);
+	font-size:115.4%;
+	font-weight:bold;
+	color:#ffffff;
+	line-height:28px;
+}
+
+aside .ranking ul{
+	padding:0 10px 10px;
+}
+
+aside .ranking ul li{
+	font-size:92.3%;
+	line-height:1.6;
+}
+
+aside .ranking ul li a{
+	display:block;
+	text-decoration:underline;
+}
+
+aside .ranking ul li img{
+	width:18px;
+	margin:0 4px 0 0;
+	vertical-align:middle;
+}
+
+
+/* ----------------------------------------
+	navi
+---------------------------------------- */
+aside .navi{
+	padding:0 10px 8px;
+}
+
+aside .navi li{
+	float:left;
+	width:50%;
+	padding-bottom:6px;
+}
+
+aside .navi li:nth-child(odd){ padding-right:3px; }
+aside .navi li:nth-child(even){ padding-left:3px; }
+
+aside .navi li img{
+	width:100%;
+}
+
+
+/* ----------------------------------------
+	box
+---------------------------------------- */
+aside .box{
+	position:relative;
+	margin:0 10px 14px;
+	padding:0 0 5px 0;
+	background:url(../../img/common/side/bg.png);
+	border:1px solid #9d0000;
+	-webkit-box-shadow:inset 0px 0px 1px rgba(255,255,255,1);
+	-moz-box-shadow:inset 0px 0px 1px rgba(255,255,255,1);
+	box-shadow:inset 0px 0px 1px rgba(255,255,255,1);
+}
+
+aside .box select{
+	width:100%;
+	font-size:92.3%;
+}
+
+aside .box h2{
+	padding:6px 0 4px 5px;
+}
+
+aside .box h2 img{
+	width:auto;
+	height:22px;
+}
+
+aside .box .in{
+	margin:0 5px;
+	padding:10px 10px 0;
+	background:#ffffff;
+	border:1px solid #9d0000;
+}
+
+
+/* check
+---------------------------------------- */
+aside .check dl{
+	background:url(../../img/common/side/check/bg.png) no-repeat right top;
+	-webkit-background-size:37px 15px;
+	-moz-background-size:37px 15px;
+	background-size:37px 15px;
+}
+
+aside .check dl dt{
+	padding:0 0 4px 0;
+	font-size:92.3%;
+}
+
+aside .check dl dd{
+	padding:0 0 10px 0;
+}
+
+
+/* search
+---------------------------------------- */
+aside .search .in{
+	padding-bottom:10px;
+}
+
+aside .search p{
+	min-height:53px;
+	background:url(../../img/common/side/search/bg.png) no-repeat right bottom;
+	-webkit-background-size:136px 53px;
+	-moz-background-size:136px 53px;
+	background-size:136px 53px;
+	margin:4px 5px 0;
+	padding:5px 0 0 0;
+	font-size:92.3%;
+}
+
+
+/* ========================================================================
+	footer
+======================================================================== */
+footer p.pagetop,
+footer nav ul li ul{
+	display:none;
+}
+
+footer{
+	border-bottom:2px solid #dc0000;
+	text-align:center;
+}
+
+footer p.copyright{
+	padding:10px 0 8px 0;
+	font-size:76.9%;
+}
+
+
+/* ----------------------------------------
+	nav
+---------------------------------------- */
+footer nav ul{
+	padding:5px 20px;
+	background:#f2f2f2;
+	font-size:0;
+}
+
+footer nav ul li{
+	display:inline-block;
+	font-size:10px;
+	line-height:1.6;
+}
+
+footer nav ul li::after{
+	content:"│";
+}
+
+footer nav ul li:last-child::after{
+	content:"";
+}
+
+/*近隣エリアで探す*/
+.area_search{
+	display:none;
+}
+
+}

@@ -1,0 +1,3022 @@
+@charset "utf-8";
+
+@media print, screen and (min-width: 768px){
+
+/*		Contents
+---------------------------------------------------------------------------
+
+	鍵のトラブルから選ぶ						[ /trouble/ ]
+	鍵の設置場所から選ぶ						[ /type/ ]
+	鍵の製品から選ぶ							[ /keytype/ ]
+	鍵のトラブルから選ぶ（詳細）				[ /trouble/xxxxxx.html ]
+	鍵の設置場所から選ぶ（詳細）				[ /type/xxxxxx.html ]
+	鍵のトラブル ランキング						[ ranking.html ]
+	鍵の種類 ランキング							[ /ranking/trouble.html ]
+	鍵の製品 人気ランキング						[ /ranking/item.html ]
+	料金表										[ /price/ ]
+	全国営業所案内								[ /about/area.html ]
+	全国営業所案内（詳細）						[ /about/area/xxxxxx.html ]
+	公式キャラクター紹介						[ /about/chara.html ]
+	お問合せ									[ contact.html ]
+	作業の流れ									[ flow.html ]
+	4つのポイント								[ point.html ]
+	技術力の秘密								[ /point/technology.html ]
+	設備紹介									[ /point/keymachine.html ]
+	TV出演実績									[ /point/tv.html ]
+	工事実績									[ /point/works.html ]
+	イモビライザーチェック						[ /immo/toyota.html ]
+	ブランクキー情報							[ /immo/blank/toyota.html ]
+	オフィシャルブログ（一覧・詳細）			[ /blog/ ]
+	オフィシャルブログ画像一覧					[ /blog/imglist/ ]
+	中山貴之の防犯コラム						[ /security/ ]
+	セキュリティアドバイザーの紹介				[ /adviser/ ]
+	鍵について 鍵の仕組み						[ /keyabout/ ]
+	鍵のよくあるご質問							[ /faq/ ]
+	外溝キー									[ /works/01.html ]
+	鍵っ子クイズ								[ /keyquiz/ ]
+
+------------------------------------------------------------------------ */
+
+
+/* ========================================================================
+	鍵のトラブルから選ぶ						[ /trouble/ ]
+======================================================================== */
+#choose{
+	padding:0 0 40px 0;
+}
+
+#choose > section{
+	padding:0 0 20px 0;
+	background:#ffe9e9;
+}
+
+#choose section section{
+	overflow:hidden;
+	margin:20px 20px 0;
+	padding:18px 18px 30px;
+	background:#ffffff;
+	border:2px solid #f2d8d8;
+}
+
+#choose span{
+	font-weight:bold;
+	color:#c10000;
+}
+
+#choose h3{
+	overflow:hidden;
+	margin:0 0 10px 0;
+	padding:0 0 10px 2px;
+	border-bottom:1px dotted #040000;
+	font-size:261.5%;
+	font-weight:bold;
+}
+
+#choose p{
+	overflow:hidden;
+	padding:0 0 12px 2px;
+	font-size:123.1%;
+	line-height:1.875;
+}
+
+#choose p.image{
+	float:left;
+	padding:0 20px 0 0;
+}
+
+#choose .widget_btn{
+	margin-left:260px;
+}
+#contact .widget_btn{
+	margin-top:20px;
+	margin-left:280px;
+}
+
+
+/* ========================================================================
+	鍵のトラブルから選ぶ（詳細）				[ /trouble/xxxxxx.html ]
+======================================================================== */
+#trouble_detail{
+	padding:0 0 10px 0;
+}
+
+#trouble_detail p{
+	overflow:hidden;
+	font-size:123.1%;
+	line-height:1.875;
+}
+
+#trouble_detail strong,
+#trouble_detail p span{
+	font-weight:bold;
+	color:#c90000;
+}
+
+
+/* ----------------------------------------
+	outline
+---------------------------------------- */
+#trouble_detail .outline{
+	margin:0 0 30px 0;
+	padding:0 0 20px 0;
+	background:#ffe9e9;
+}
+
+#trouble_detail .outline .box{
+	margin:20px 20px 0;
+	padding:20px;
+	background:#ffffff;
+	border:2px solid #f2d8d8;
+}
+
+#trouble_detail .outline p img{
+	float:right;
+	margin:0 0 0 20px;
+}
+
+#trouble_detail .outline p.price{
+	padding:10px 0 0 0;
+}
+
+#trouble_detail .outline p.price img{
+	float:none;
+	margin:0;
+}
+
+
+/* ----------------------------------------
+	point
+---------------------------------------- */
+#trouble_detail .point{
+	overflow:visible;
+	padding:30px 0 0 0;
+}
+
+#trouble_detail .point li{
+	margin:0 0 30px 0;
+	background:url(../../img/common/bg_gray.png) repeat-x top;
+	border:2px solid #d5cbcb;
+	-webkit-box-shadow:inset 0px 1px 2px rgba(255,255,255,1);
+	-moz-box-shadow:inset 0px 1px 2px rgba(255,255,255,1);
+	box-shadow:inset 0px 1px 2px rgba(255,255,255,1);
+}
+
+/* ---------- clearfix ---------- */
+#trouble_detail .point li::after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+/* ------------------------------ */
+
+#trouble_detail .point h2{
+	position:relative;
+	z-index:1;
+	margin:0 18px;
+	padding:6px 0 0 0;
+	border-bottom:2px solid #e7e4e4;
+	font-size:261.5%;
+	font-weight:bold;
+}
+
+#trouble_detail .point h2 img{
+	display:inline-block;
+	margin:-16px 12px -16px -12px;
+	vertical-align:middle;
+}
+
+#trouble_detail .point h2 span{
+	display:inline-block;
+	width:592px;
+	padding:18px 0 17px 0;
+	vertical-align:middle;
+}
+
+#trouble_detail .point p{
+	padding:20px 28px 20px 0;
+}
+
+#trouble_detail .point p.image{
+	float:left;
+	padding:20px 30px 28px 18px;
+}
+
+
+/* ========================================================================
+	鍵の設置場所から選ぶ（詳細）				[ /type/xxxxxx.html ]
+======================================================================== */
+#type_detail{
+	padding:0 0 10px 0;
+}
+
+#type_detail p{
+	overflow:hidden;
+	font-size:123.1%;
+	line-height:1.875;
+}
+
+#type_detail strong,
+#type_detail p span{
+	font-weight:bold;
+	color:#c90000;
+}
+
+
+/* ----------------------------------------
+	navi
+---------------------------------------- */
+#type_detail .navi{
+	padding:0 0 30px 0;
+}
+
+#type_detail .navi h2{
+	padding:0 0 16px 0;
+	font-size:307.7%;
+	font-weight:bold;
+}
+
+#type_detail .navi h2 span{
+	display:inline-block;
+	position:relative;
+	margin:0 20px 0 0;
+	padding:0 10px 0 28px;
+	background:url(../../img/type/icon.png) no-repeat 10px center #c90000;
+	border:1px solid #c90000;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	vertical-align:middle;
+	font-size:45%;
+	font-weight:normal;
+	color:#ffffff;
+	line-height:34px;
+}
+
+#type_detail .navi h2 span::after{
+	content:"";
+	position:absolute;
+	left:100%;
+	top:50%;
+	margin-top:-5px;
+	border-top:5px solid transparent;
+	border-right:10px solid transparent;
+	border-bottom:5px solid transparent;
+	border-left:10px solid #c90000;
+}
+
+#type_detail .navi ul li{
+	float:left;
+}
+
+
+/* ----------------------------------------
+	point
+---------------------------------------- */
+#type_detail .point{
+	padding:30px 0 0 0;
+}
+
+#type_detail .point li{
+	margin:0 0 30px 0;
+	background:url(../../img/common/bg_gray.png) repeat-x top;
+	border:2px solid #d5cbcb;
+	-webkit-box-shadow:inset 0px 1px 2px rgba(255,255,255,1);
+	-moz-box-shadow:inset 0px 1px 2px rgba(255,255,255,1);
+	box-shadow:inset 0px 1px 2px rgba(255,255,255,1);
+}
+
+/* ---------- clearfix ---------- */
+#type_detail .point li::after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+/* ------------------------------ */
+
+#type_detail .point h2{
+	position:relative;
+	z-index:1;
+	margin:0 18px;
+	padding:6px 0 0 0;
+	border-bottom:2px solid #e7e4e4;
+	font-size:261.5%;
+	font-weight:bold;
+}
+
+#type_detail .point h2 img{
+	display:inline-block;
+	width:108px;
+	margin:-16px 12px -16px -12px;
+	vertical-align:middle;
+}
+
+#type_detail .point h2 span{
+	display:inline-block;
+	width:592px;
+	padding:18px 0 17px 0;
+	vertical-align:middle;
+}
+
+#type_detail .point p{
+	padding:20px 28px 20px 0;
+}
+
+#type_detail .point p.image{
+	float:left;
+	padding:20px 30px 28px 18px;
+}
+
+
+/* ----------------------------------------
+	work
+---------------------------------------- */
+#type_detail .work{
+	padding:0 0 30px 0;
+}
+
+#type_detail .work ul{
+	margin:0 0 30px 0;
+	padding:0 15px 5px;
+	background:#aa2222;
+}
+
+#type_detail .work ul li{
+	overflow:hidden;
+	margin:0 0 10px 0;
+	padding:24px 20px 18px 24px;
+	background:#ffffff;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
+
+#type_detail .work ul li img{
+	float:left;
+	margin:0 28px 0 0;
+}
+
+#type_detail .work ul li dl{
+	overflow:hidden;
+}
+
+#type_detail .work ul li dl dt{
+	padding:0 0 10px 0;
+	font-size:184.6%;
+	font-weight:bold;
+	color:#c90000;
+}
+
+#type_detail .work ul li dl dd{
+	font-size:123.1%;
+	line-height:1.875;
+}
+
+
+/* example
+---------------------------------------- */
+#type_detail .work .example{
+	padding:18px 13px 13px;
+	background:#ffe9e9;
+	border:2px solid #f2d8d8;
+}
+
+#type_detail .work .example dt{
+	padding:0 0 12px 0;
+	text-align:center;
+	font-size:184.6%;
+	font-weight:bold;
+}
+
+#type_detail .work .example dd{
+	padding:14px 18px;
+	background:#ffffff;
+	font-size:107.7%;
+	line-height:1.857;
+}
+
+
+/* ----------------------------------------
+	feature
+---------------------------------------- */
+#type_detail .feature{
+	margin:0 0 30px 0;
+	padding:0 0 15px 0;
+	background:#aa2222;
+}
+
+#type_detail .feature ul{
+	margin:0 15px;
+	padding:10px 0 10px 5px;
+	background:#ffffff;
+}
+
+#type_detail .feature ul li{
+	float:left;
+	width:330px;
+	margin:10px;
+}
+
+#type_detail .feature ul li img{
+	float:left;
+	margin:0 12px 0 0;
+}
+
+#type_detail .feature ul li dl{
+	overflow:hidden;
+	padding:0 0 0 16px;
+	border-left:1px solid #c90000;
+}
+
+#type_detail .feature ul li dl dt{
+	padding:0 0 6px 0;
+	font-size:138.4%;
+	font-weight:bold;
+}
+
+#type_detail .feature ul li dl dd{
+	padding:0 0 6px 0;
+	font-size:107.7%;
+	line-height:1.428;
+}
+
+
+/* ========================================================================
+	鍵のトラブル ランキング						[ ranking.html ]
+	鍵の種類 ランキング							[ /ranking/trouble.html ]
+======================================================================== */
+#ranking ul{
+	overflow:visible;
+	padding:0 0 10px 0;
+}
+
+#ranking ul li{
+	margin:0 0 30px 0;
+	background:url(../../img/common/bg_gray.png) repeat-x top;
+	border:2px solid #d5cbcb;
+	-webkit-box-shadow:inset 0px 1px 2px rgba(255,255,255,1);
+	-moz-box-shadow:inset 0px 1px 2px rgba(255,255,255,1);
+	box-shadow:inset 0px 1px 2px rgba(255,255,255,1);
+}
+
+#ranking h2{
+	position:relative;
+	z-index:1;
+	margin:0 28px;
+	padding:6px 0 0 0;
+	border-bottom:2px solid #e7e4e4;
+	font-size:307.7%;
+	font-weight:bold;
+}
+
+#ranking h2 img{
+	display:inline-block;
+	width:108px;
+	margin:-16px 12px -16px -22px;
+	vertical-align:middle;
+}
+
+#ranking h2 span{
+	display:inline-block;
+	width:582px;
+	padding:14px 0;
+	vertical-align:middle;
+}
+
+#ranking strong,
+#ranking p span{
+	font-weight:bold;
+	color:#c90000;
+}
+
+#ranking .column{
+	margin:0 28px;
+	padding:26px 0 20px 0;
+}
+
+#ranking p{
+	overflow:hidden;
+	font-size:123.1%;
+	line-height:1.875;
+}
+
+#ranking p.image{
+	float:left;
+	padding:0 20px 0 0;
+}
+
+
+/* ----------------------------------------
+	widget_btn
+---------------------------------------- */
+#ranking .widget_btn{
+	margin-left:280px;
+	padding:18px 0 10px 0;
+}
+
+
+/* ----------------------------------------
+	trouble（鍵の種類 ランキング）
+---------------------------------------- */
+#ranking .trouble h2{
+	font-size:276.9%;
+}
+
+
+/* ========================================================================
+	鍵の製品 人気ランキング						[ /ranking/item.html ]
+======================================================================== */
+#ranking_item ul{
+	overflow:visible;
+	padding:10px 0;
+}
+
+/* ---------- clearfix ---------- */
+#ranking_item ul::after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+/* ------------------------------ */
+
+#ranking_item ul li{
+	position:relative;
+	float:left;
+	width:360px;
+	margin:0 0 30px 0;
+	padding:26px 18px 20px;
+	background:url(../../img/ranking/item/bg_ranking.png) repeat-x top;
+	border:2px solid #d37979;
+	-webkit-box-shadow:inset -1px 1px 0px rgba(255,255,255,1);
+	-moz-box-shadow:inset -1px 1px 0px rgba(255,255,255,1);
+	box-shadow:inset -1px 1px 0px rgba(255,255,255,1);
+}
+
+#ranking_item h2{
+	margin:0 0 14px 0;
+	padding:0 0 10px 0;
+	border-bottom:2px solid #e7cece;
+	text-align:center;
+	font-size:215.4%;
+	font-weight:bold;
+	color:#c90000;
+}
+
+#ranking_item span{
+	font-weight:bold;
+	color:#c90000;
+}
+
+#ranking_item p{
+	overflow:hidden;
+	padding:0 0 15px 0;
+	font-size:123.1%;
+	line-height:1.875;
+}
+
+#ranking_item p.ranking{
+	position:absolute;
+	top:-23px;
+	left:-13px;
+	z-index:1;
+	padding:0;
+}
+
+#ranking_item p.image{
+	padding:0 0 12px 0;
+	text-align:center;
+}
+
+
+/* ----------------------------------------
+	1位～3位
+---------------------------------------- */
+#ranking_item ul li:nth-child(-n+3){
+	width:auto;
+	min-height:280px;
+	padding:20px 18px 20px 278px;
+	background:url(../../img/ranking/item/bg_ranking01-02.png) no-repeat right bottom, url(../../img/ranking/item/bg_ranking01-01.png) repeat-x top;
+	border:2px solid #decb91;
+}
+
+#ranking_item ul li:nth-child(-n+3) h2{
+	margin:0 0 10px 0;
+	padding:4px 0 14px 0;
+	border-bottom:2px solid #ece2c2;
+	text-align:left;
+	font-size:276.9%;
+	color:#7d6100;
+}
+
+#ranking_item ul li:nth-child(-n+3) p.image{
+	position:absolute;
+	top:20px;
+	left:18px;
+	padding:0;
+}
+
+
+/* 2位
+---------------------------------------- */
+#ranking_item ul li:nth-child(2){
+	background-image:url(../../img/ranking/item/bg_ranking02-02.png), url(../../img/ranking/item/bg_ranking02-01.png);
+	border-color:#c1c4c6;
+}
+
+#ranking_item ul li:nth-child(2) h2{
+	border-color:#d6d8d9;
+	color:#3a3e40;
+}
+
+
+/* 3位
+---------------------------------------- */
+#ranking_item ul li:nth-child(3){
+	background-image:url(../../img/ranking/item/bg_ranking03-02.png), url(../../img/ranking/item/bg_ranking03-01.png);
+	border-color:#d6a990;
+}
+
+#ranking_item ul li:nth-child(3) h2{
+	border-color:#e6d1c6;
+	color:#532e13;
+}
+
+
+/* ----------------------------------------
+	4位～10位
+---------------------------------------- */
+#ranking_item ul li:nth-child(n+4) p{
+	font-size:107.7%;
+	line-height:1.428;
+}
+
+#ranking_item ul li:nth-child(n+4) .widget_btn{
+	margin:0 auto;
+}
+
+
+/* 8位～10位
+---------------------------------------- */
+#ranking_item ul li:nth-child(n+8){
+	width:240px;
+	margin-right:10px;
+	padding-top:18px;
+}
+
+#ranking_item ul li:nth-child(n+8) h2{
+	font-size:169.2%;
+}
+
+
+/* 4位 / 6位 / 8位 / 10位
+---------------------------------------- */
+#ranking_item ul li:nth-child(4),
+#ranking_item ul li:nth-child(6){
+	margin-right:20px;
+}
+
+#ranking_item ul li:nth-child(8) h2{
+	letter-spacing:-0.6px;
+}
+
+#ranking_item ul li:nth-child(10){
+	margin-right:0;
+}
+
+
+/* ========================================================================
+	料金表										[ /price/ ]
+======================================================================== */
+#price{
+	padding:0 0 30px 0;
+}
+
+#price p{
+	padding:0 0 10px 0;
+	text-align:center;
+}
+
+#price .start{
+	position:relative;
+	margin:0 0 47px 0;
+}
+
+#price .start p{
+	position:absolute;
+	bottom:30px;
+	left:31px;
+	padding:0;
+}
+
+
+/* ========================================================================
+	全国営業所案内								[ /about/area.html ]
+	全国営業所案内（詳細）						[ /about/area/xxxxxx.html ]
+======================================================================== */
+
+/* ----------------------------------------
+	map
+---------------------------------------- */
+#area .map{
+	padding:0 0 40px 0;
+}
+
+#area .map .navi{
+	position:relative;
+}
+
+#area .map .navi ul{
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100%;
+}
+
+#area .map .navi ul li{
+	position:absolute;
+	top:203px;
+	right:70px;
+}
+
+#area .map .navi ul li:nth-child(2){ top:293px; }
+#area .map .navi ul li:nth-child(3){ top:323px; }
+#area .map .navi ul li:nth-child(4){ top:373px; }
+#area .map .navi ul li:nth-child(5){ top:403px; }
+#area .map .navi ul li:nth-child(6){ top:433px; }
+#area .map .navi ul li:nth-child(7){ top:233px; right:370px; }
+#area .map .navi ul li:nth-child(8){ top:473px; right:240px; }
+#area .map .navi ul li:nth-child(9){ top:503px; right:270px; }
+#area .map .navi ul li:nth-child(10){ top:533px; right:300px; }
+#area .map .navi ul li:nth-child(11){ top:300px; right:450px; }
+#area .map .navi ul li:nth-child(12){ top:329px; right:538px; }
+#area .map .navi ul li:nth-child(13){ top:533px; right:450px; }
+#area .map .navi ul li:nth-child(14){ top:359px; right:605px; }
+#area .map .navi ul li:nth-child(15){ top:463px; }
+#area .map .navi ul li:nth-child(16){ top:273px; right:280px; }
+
+
+/* ----------------------------------------
+	office
+---------------------------------------- */
+#area .office{
+	overflow:hidden;
+	padding:0 0 20px 0;
+}
+
+
+/* service
+---------------------------------------- */
+#area .office .service{
+	margin:0 0 40px 0;
+	padding:18px 0;
+	border:1px solid #dddddd;
+}
+
+#area .office .service p{
+	padding:0 20px 16px;
+	font-size:107.7%;
+	font-weight:bold;
+}
+
+#area .office .service ul{
+	padding:0 0 0 15px;
+}
+
+#area .office .service ul li{
+	float:left;
+	width:60px;
+	margin:0 10px 0 0;
+	text-align:center;
+	font-size:107.7%;
+}
+
+#area .office .service ul li img{
+	margin:0 0 6px 0;
+}
+
+
+/* section
+---------------------------------------- */
+#area .office section{
+	float:left;
+	width:360px;
+	margin:0 20px 20px 0;
+	padding:0 0 10px 0;
+	border:1px solid #dddddd;
+}
+
+#area .office section:nth-of-type(2n){
+	margin-right:0;
+}
+
+#area .office section h3{
+	padding:0 0 0 30px;
+	background:url(../../img/about/area/icon_office.png) no-repeat 10px center #eeeeee;
+	border-bottom:1px solid #dddddd;
+	font-size:123.1%;
+	line-height:40px;
+}
+
+#area .office section h3 a{
+	display:inline-block;
+	margin:0 0 0 14px;
+	padding:0 8px 0 12px;
+	background:url(../../img/about/area/arrow.png) no-repeat 6px center #c90000;
+	-webkit-background-size:4px auto;
+	-moz-background-size:4px auto;
+	background-size:4px auto;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	font-size:75%;
+	color:#ffffff;
+	line-height:20px;
+	vertical-align:text-bottom;
+	text-decoration:none;
+}
+
+#area .office section p{
+	padding:6px 10px;
+	font-size:92.3%;
+	line-height:1.6;
+}
+
+#area .office section ul{
+	padding:0 0 0 10px;
+}
+
+#area .office section ul li{
+	float:left;
+	width:25px;
+	margin:0 4px 10px 0;
+}
+
+
+/* ----------------------------------------
+	feature
+---------------------------------------- */
+#area .feature{
+	overflow:hidden;
+	margin:0 0 30px 0;
+	padding:0 20px;
+	border:1px solid #cccccc;
+	border-top:4px solid #aa2222;
+}
+
+#area .feature .block{
+	float:left;
+	width:400px;
+	padding:14px 0 20px 0;
+}
+
+#area .feature .image{
+	float:right;
+	width:280px;
+	padding:20px 0;
+}
+
+#area .feature h2{
+	margin:0 0 10px 0;
+	padding:0 0 7px 48px;
+	background:url(../../img/about/area/bg_h2_feature.png) no-repeat left top;
+	border-bottom:1px solid #b6b6b6;
+	font-size:200%;
+	font-weight:bold;
+	color:#c90000;
+	line-height:42px;
+}
+
+#area .feature p{
+	font-size:123.1%;
+	line-height:1.875;
+}
+
+
+/* ----------------------------------------
+	service_center
+---------------------------------------- */
+#area .service_center{
+	overflow:hidden;
+	padding:0 0 30px 0;
+}
+
+#area .service_center a{ text-decoration:underline; }
+#area .service_center a:hover{ text-decoration:none; }
+
+#area .service_center h2{
+	padding:0 0 10px 220px;
+	font-size:153.8%;
+	font-weight:bold;
+}
+
+#area .service_center h2::before{
+	content:"●";
+	color:#54aa15;
+}
+
+#area .service_center p{
+	float:left;
+	width:220px;
+	padding:0 0 0 7px;
+}
+
+#area .service_center table{
+	width:520px;
+	font-size:107.7%;
+}
+
+#area .service_center table th{
+	width:140px;
+	padding:10px 8px;
+	background:#edfade;
+	border:1px solid #cccccc;
+	text-align:left;
+	vertical-align:top;
+	line-height:1.857;
+}
+
+#area .service_center table th::before{
+	content:"";
+	display:inline-block;
+	height:22px;
+	padding:0 7px 0 0;
+	border-left:3px solid #54aa15;
+	vertical-align:middle;
+}
+
+#area .service_center table td{
+	padding:10px 16px;
+	border:1px solid #cccccc;
+	line-height:1.857;
+}
+
+
+/* ----------------------------------------
+	problem
+---------------------------------------- */
+#area .problem{
+	overflow:hidden;
+	margin:0 0 30px 0;
+	padding:20px;
+	background:#ffe9e9;
+	border:1px solid #efc0c0;
+}
+
+#area .problem .block{
+	float:left;
+	width:400px;
+}
+
+#area .problem .image{
+	float:right;
+	width:280px;
+	padding:0;
+	border:5px solid #ffffff;
+}
+
+#area .problem h2{
+	margin:-6px 0 10px 0;
+	padding:0 0 0 15px;
+	background:url(../../img/about/area/bg_h2_problem.png) no-repeat left center;
+	font-size:169.2%;
+	font-weight:bold;
+	line-height:42px;
+}
+
+#area .problem h2 img{
+	margin:0 0 0 4px;
+}
+
+#area .problem p{
+	min-height:138px;
+	padding:7px 14px;
+	background:#ffffff;
+	font-size:123.1%;
+	line-height:1.875;
+}
+
+
+/* ----------------------------------------
+	area
+---------------------------------------- */
+#area .area{
+	position:relative;
+	margin:0 0 40px 0;
+	padding:56px 10px 10px;
+	background:#aa2222;
+	text-align:center;
+}
+
+#area .area h2{
+	position:absolute;
+	top:-7px;
+	left:0;
+	width:100%;
+	font-size:169.2%;
+	font-weight:bold;
+	color:#ffffff;
+}
+
+#area .area h2 img{
+	margin:0 12px 10px 0;
+	vertical-align:middle;
+}
+
+#area .area ul{
+	padding:10px 0 4px 0;
+	background:#ffffff;
+	font-size:0;
+}
+
+#area .area ul li{
+	display:inline-block;
+	margin:0 3px 6px;
+	padding:0 15px 0 23px;
+	background:url(../../img/about/area/arrow_area.png) no-repeat 9px center #f4f4f4;
+	-webkit-background-size:6px auto;
+	-moz-background-size:6px auto;
+	background-size:6px auto;
+	border:1px solid #c0c0c0;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	font-size:16px;
+	line-height:30px;
+}
+
+
+/* ========================================================================
+	公式キャラクター紹介						[ /about/chara.html ]
+======================================================================== */
+#chara{
+	padding:0 0 40px 0;
+}
+
+
+/* ========================================================================
+	お問合せ									[ contact.html ]
+======================================================================== */
+#contact{
+	padding:0 0 30px 0;
+}
+
+#contact section{
+	padding:0 0 10px 0;
+}
+
+#contact p{
+	padding:0 0 30px 0;
+	font-size:123.1%;
+}
+
+#contact p.lead{
+	font-size:115.4%;
+}
+
+#contact p.lead img{
+	margin:0 0 8px 0;
+}
+
+
+/* ----------------------------------------
+	flow
+---------------------------------------- */
+#contact .flow{
+	padding:30px 0 15px 0;
+	border-top:1px dotted #abadb3;
+}
+
+#contact .flow li{
+	float:left;
+	width:240px;
+	margin:0 0 0 10px;
+	background:url(../../img/contact/flow.png) no-repeat center;
+	text-align:center;
+	font-size:153.8%;
+	line-height:74px;
+}
+
+#contact .flow li.current{
+	background-image:url(../../img/contact/flow_current.png);
+	font-weight:bold;
+	color:#ffffff;
+}
+
+#contact .flow li:first-child{
+	margin-left:0;
+}
+
+
+/* ----------------------------------------
+	form
+---------------------------------------- */
+#contact table{
+	margin:0 0 45px 0;
+}
+
+#contact table th{
+	width:200px;
+	padding:15px 0;
+	text-align:left;
+	font-size:138.4%;
+	font-weight:bold;
+	line-height:35px;
+	vertical-align:top;
+}
+
+#contact table th.middle{
+	vertical-align:middle;
+}
+
+#contact table th span{
+	float:right;
+	margin:4px 0 0 0;
+	padding:0 6px;
+	background:#c90000;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	font-size:77.8%;
+	font-weight:normal;
+	color:#ffffff;
+	line-height:27px;
+}
+
+#contact table td{
+	padding:15px 0 15px 10px;
+	font-size:123.1%;
+}
+
+#contact table td span{
+	display:block;
+	margin:0 0 20px 0;
+	padding:8px 0 18px 0;
+	border-bottom:1px dotted #abadb3;
+	font-size:75%;
+	line-height:1.6;
+}
+#contact table td div{
+	display:block;
+	margin:0 0 10px 0;
+	padding:8px 0 18px 0;
+	border-bottom:1px dotted #abadb3;
+	font-size:75%;
+	line-height:1.6;
+	float:left;
+	width:20%;
+}
+
+#contact table td table{
+	margin:0;
+}
+
+#contact table td table th{
+	width:74px;
+	padding:0 0 10px 0;
+	font-size:100%;
+	font-weight:normal;
+}
+
+#contact table td table td{
+	padding:0 0 10px 0;
+	font-size:100%;
+}
+
+#contact table td table tr:last-child th,
+#contact table td table tr:last-child td{
+	padding:0;
+}
+
+#contact table td input[type="text"],
+#contact table td input[type="email"]{
+	width:100%;
+	padding:0 10px;
+	line-height:33px;
+}
+
+#contact table td input.size{
+	width:130px;
+}
+
+#contact table td select{
+	height:35px;
+}
+
+#contact table td textarea{
+	width:100%;
+	padding:10px;
+}
+
+#contact table td input[type="checkbox"]{
+	margin:-2px 10px 0 0;
+	
+}
+#contact table td input[type="radio"]{
+	margin:-2px 10px 0 0;
+	float:left;
+	
+}
+
+
+/* ----------------------------------------
+	btn
+---------------------------------------- */
+#contact .btn{
+	text-align:center;
+}
+
+#contact .btn button{
+	width:210px;
+	height:60px;
+	margin:0 10px;
+	background:-webkit-linear-gradient(top,  #e2e2e2 0%,#c8c8c8 100%);
+	background:-moz-linear-gradient(top,  #e2e2e2 0%, #c8c8c8 100%);
+	background:linear-gradient(to bottom,  #e2e2e2 0%,#c8c8c8 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#c8c8c8',GradientType=0 );
+	border:1px solid #aaaaaa;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	-webkit-box-shadow:0px 1px 1px rgba(0,0,0,0.4), inset 1px 1px 0px rgba(255,255,255,0.4);
+	-moz-box-shadow:0px 1px 1px rgba(0,0,0,0.4), inset 1px 1px 0px rgba(255,255,255,0.4);
+	box-shadow:0px 1px 1px rgba(0,0,0,0.4), inset 1px 1px 0px rgba(255,255,255,0.4);
+	font-size:153.8%;
+	font-weight:bold;
+}
+
+#contact .btn button[type="submit"]{
+	background:-webkit-linear-gradient(top,  #db0000 0%,#c90000 100%);
+	background:-moz-linear-gradient(top,  #db0000 0%, #c90000 100%);
+	background:linear-gradient(to bottom,  #db0000 0%,#c90000 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#db0000', endColorstr='#c90000',GradientType=0 );
+	border-color:#c90000;
+	color:#ffffff;
+}
+
+#contact .btn button span{
+	padding:0 0 0 24px;
+	background:url(../../img/contact/arrow.png) no-repeat left center;
+	-webkit-background-size:16px auto;
+	-moz-background-size:16px auto;
+	background-size:16px auto;
+}
+
+
+/* ========================================================================
+	作業の流れ									[ flow.html ]
+======================================================================== */
+#flow{
+	padding:0 0 30px 0;
+}
+
+#flow a{ text-decoration:underline; }
+#flow a:hover{ text-decoration:none; }
+
+#flow figure{
+	padding:0 0 30px 0;
+}
+
+#flow ol{
+	overflow:visible;
+}
+
+#flow ol li{
+	margin:0 0 8px 0;
+	padding:0 0 40px 0;
+	background:url(../../img/flow/arrow.png) no-repeat center bottom;
+}
+
+#flow ol li:last-child{
+	margin:0;
+	padding:0 0 30px 0;
+	background:none;
+}
+
+#flow ol li .box{
+	background:url(../../img/common/bg_gray.png) repeat-x top;
+	border:2px solid #d5cbcb;
+	-webkit-box-shadow:inset 0px 1px 2px rgba(255,255,255,1);
+	-moz-box-shadow:inset 0px 1px 2px rgba(255,255,255,1);
+	box-shadow:inset 0px 1px 2px rgba(255,255,255,1);
+}
+
+/* ---------- clearfix ---------- */
+#flow ol li .box::after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+/* ------------------------------ */
+
+#flow ol li h2{
+	position:relative;
+	z-index:1;
+	margin:0 18px;
+	padding:6px 0 0 0;
+	border-bottom:2px solid #e7e4e4;
+	font-size:215.4%;
+	font-weight:bold;
+}
+
+#flow ol li h2 span{
+	display:table-cell;
+	height:76px;
+	vertical-align:middle;
+}
+
+#flow ol li h2 img{
+	float:left;
+	margin:-16px 12px -16px -12px;
+	vertical-align:middle;
+}
+
+#flow ol li p{
+	overflow:hidden;
+	padding:20px 18px 20px 0;
+	font-size:123.1%;
+	line-height:1.875;
+}
+
+#flow ol li p.image{
+	float:left;
+	padding:20px 20px 20px 18px;
+}
+
+#flow table{
+	margin:0 0 30px 0;
+	text-align:center;
+}
+
+#flow table th{
+	width:344px;
+	padding:16px 0 12px 0;
+	background:#ffe9e9;
+	border:1px solid #cccccc;
+	font-size:153.8%;
+	font-weight:bold;
+}
+
+#flow table th span{
+	display:block;
+	padding:6px 0 0 0;
+	font-size:70%;
+	color:#c10000;
+}
+
+#flow table td{
+	border:1px solid #cccccc;
+}
+
+
+/* ========================================================================
+	4つのポイント								[ point.html ]
+	技術力の秘密								[ /point/technology.html ]
+======================================================================== */
+#point{
+	padding:0 0 10px 0;
+}
+
+#point section{
+	padding:0 0 30px 0;
+}
+
+#point h2{
+	display:table;
+	position:relative;
+	width:100%;
+	margin:0 0 15px 0;
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e3e3e3',GradientType=0 );
+	background:-webkit-linear-gradient(top,  #fefefe 0%,#e3e3e3 100%);
+	background:-moz-linear-gradient(top,  #fefefe 0%, #e3e3e3 100%);
+	background:linear-gradient(to bottom,  #fefefe 0%,#e3e3e3 100%);
+}
+
+#point h2::after{
+	content:"";
+	position:absolute;
+	left:136px;
+	top:50%;
+	margin-top:-8px;
+	border:8px solid transparent;
+	border-left-color:#b42e2e;
+}
+
+#point h2 span{
+	display:table-cell;
+	padding:12px 0 12px 16px;
+	border:1px solid #cccccc;
+	border-left:none;
+	font-size:184.6%;
+	font-weight:bold;
+	line-height:1.4;
+}
+
+#point h2 span.arrow{
+	width:136px;
+	padding:0;
+	background:#b42e2e;
+	border:none;
+	text-align:center;
+	vertical-align:middle;
+	font-size:169.2%;
+	color:#ffff00;
+}
+
+#point p{
+	overflow:hidden;
+	padding:0 0 20px 0;
+	font-size:123.1%;
+	line-height:1.875;
+}
+
+#point p img{
+	float:right;
+	margin:0 0 20px 20px;
+}
+
+#point dl dd{
+	padding:0 15px 15px;
+	background:#606792;
+}
+
+#point dl dd ul{
+	padding:15px 0 15px 16px;
+	background:#ffffff;
+}
+
+#point dl dd ul li{
+	float:left;
+	width:162px;
+	margin:0 10px 0 0;
+	font-size:107.7%;
+	line-height:1.428;
+}
+
+#point dl dd ul li img{
+	margin:0 0 8px 0;
+}
+
+
+/* ----------------------------------------
+	comment
+---------------------------------------- */
+#point p.comment{
+	overflow:visible;
+	min-height:114px;
+	margin:8px 80px 0;
+	padding:33px 108px 0 0;
+	background:url(../../img/point/bg_comment01.png) no-repeat right top;
+	font-size:138.4%;
+	font-weight:bold;
+	color:#b42e2e;
+}
+
+#point p.comment > span{
+	display:inline-block;
+	width:100%;
+	background:#ffe9e9;
+	text-align:center;
+	line-height:56px;
+}
+
+#point_02 p.comment, #point_04 p.comment{ background-image:url(../../img/point/bg_comment02.png)}
+
+
+/* ----------------------------------------
+	technology（技術力の秘密）
+---------------------------------------- */
+#point .technology h2::after{
+	left:90px;
+}
+
+#point .technology h2 span.arrow{
+	width:90px;
+}
+
+#point .technology ul{
+	padding:5px 0 22px 0;
+}
+
+#point .technology ul li{
+	float:left;
+	width:176px;
+	margin:0 0 0 12px;
+	text-align:center;
+	font-size:107.7%;
+	line-height:1.428;
+}
+
+#point .technology ul li:first-child{
+	margin-left:0;
+}
+
+#point .technology ul li img{
+	margin:0 0 6px 0;
+}
+
+
+/* secret
+---------------------------------------- */
+#point .secret{
+	position:relative;
+	min-height:290px;
+	margin:0 184px 0 0;
+	padding:20px 18px 76px;
+	background:#ffe9e9;
+}
+
+#point .secret p{
+	padding:0;
+}
+
+#point .secret img{
+	position:absolute;
+	bottom:0;
+	right:-184px;
+	float:none;
+	margin:0;
+}
+
+#point .secret span{
+	display:inline-block;
+	width:444px;
+	position:absolute;
+	bottom:20px;
+	left:20px;
+	background:#ffffff;
+	text-align:center;
+	font-size:112.5%;
+	font-weight:bold;
+	color:#348117;
+	line-height:56px;
+}
+
+#point .secret span::after{
+	content:url(../../img/point/technology/balloon.png);
+	position:absolute;
+	top:14px;
+	right:-20px;
+	line-height:0;
+}
+
+
+/* ----------------------------------------
+	navi
+---------------------------------------- */
+#point .navi{
+	margin:0 0 30px 0;
+	background:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9Imc1NzQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+CjxzdG9wIHN0b3AtY29sb3I9IiNjOTY0NjQiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiNiMjMxMzEiIG9mZnNldD0iMC42OCIvPgo8L2xpbmVhckdyYWRpZW50Pgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2c1NzQpIiAvPgo8L3N2Zz4=); /* IE9用 */
+	background:-webkit-linear-gradient(top,  #c96464 0%,#b23131 68%);
+	background:-moz-linear-gradient(top,  #c96464 0%, #b23131 68%);
+	background:linear-gradient(to bottom,  #c96464 0%,#b23131 68%);
+	border:1px solid #b73838;
+}
+
+#point .navi li{
+	float:left;
+	width:25%;
+}
+
+#point .navi li a{
+	display:block;
+	position:relative;
+	padding:8px 0 16px 0;
+	background:url(../../img/point/arrow.png) no-repeat center 56px;
+	border-top:1px solid #da9393;
+	border-bottom:1px solid #ca7171;
+	-webkit-box-shadow:inset 2px 0px 0px rgba(183,56,56,1);
+	-moz-box-shadow:inset 2px 0px 0px rgba(183,56,56,1);
+	box-shadow:inset 2px 0px 0px rgba(183,56,56,1);
+	text-align:center;
+	font-size:138.4%;
+	font-weight:bold;
+	color:#ffff00;
+	line-height:1;
+	text-decoration:none;
+}
+
+#point .navi li a:before,
+#point .navi li:last-child a:after{
+	content:"";
+	height:100%;
+	width:1px;
+	position:absolute;
+	top:0;
+	left:0;
+	background:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9Imc2NjAiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+CjxzdG9wIHN0b3AtY29sb3I9IiNkNzhkOGQiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiNjNzY5NjkiIG9mZnNldD0iMSIvPgo8L2xpbmVhckdyYWRpZW50Pgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2c2NjApIiAvPgo8L3N2Zz4=); /* IE9用 */
+	background:-webkit-linear-gradient(top,  #d78d8d 0%,#c76969 100%);
+	background:-moz-linear-gradient(top,  #d78d8d 0%, #c76969 100%);
+	background:linear-gradient(to bottom,  #d78d8d 0%,#c76969 100%);
+}
+
+#point .navi li:last-child a::after{
+	left:auto;
+	right:0;
+}
+
+#point .navi li span{
+	display:block;
+}
+
+#point .navi li a > span:first-of-type{
+	display:inline-block;
+	margin:0 auto 6px;
+	padding:0 10px;
+	background:#ffffff;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+	font-size:77.8%;
+	color:#c90000;
+	line-height:18px;
+}
+
+
+/* ========================================================================
+	設備紹介									[ /point/keymachine.html ]
+======================================================================== */
+#keymachine{
+	padding:0 0 20px 0;
+}
+
+#keymachine li{
+	overflow:hidden;
+	margin:0 0 20px 0;
+	padding:20px;
+	border:1px solid #cccccc;
+	border-top:4px solid #aa2222;
+}
+
+#keymachine li img{
+	float:left;
+	margin:0 20px 0 0;
+}
+
+#keymachine li h2{
+	overflow:hidden;
+	margin:0 0 10px 0;
+	padding:0 0 10px 38px;
+	background:url(../../img/point/keymachine/icon.png) no-repeat left top;
+	-webkit-background-size:30px;
+	-moz-background-size:30px;
+	background-size:30px;
+	border-bottom:1px solid #b6b6b6;
+	font-size:184.6%;
+	font-weight:bold;
+	line-height:30px;
+}
+
+#keymachine li h2 span{
+	font-size:75%;
+}
+
+#keymachine li p{
+	overflow:hidden;
+	font-size:123.1%;
+	line-height:1.875;
+}
+
+
+/* ========================================================================
+	TV出演実績									[ /point/tv.html ]
+======================================================================== */
+#tv section{
+	padding:0 0 40px 0;
+}
+
+#tv table th{
+	width:78px;
+	padding:16px 0;
+	background:#ffecec;
+	border:1px solid #d2d2d2;
+	text-align:center;
+	vertical-align:top;
+	font-size:138.4%;
+	font-weight:bold;
+}
+
+#tv table td{
+	padding:12px 20px;
+	border:1px solid #d2d2d2;
+	font-size:123.1%;
+	line-height:1.875;
+}
+
+#tv table td span{
+	display:block;
+	padding:0 0 0 22px;
+	background:url(../../img/point/tv/icon.png) no-repeat left center;
+}
+
+#tv table td img{
+	display:block;
+	margin:14px auto 8px;
+}
+
+
+/* ========================================================================
+	工事実績									[ /point/works.html ]
+======================================================================== */
+#point_works{
+	padding:0 0 20px 0;
+}
+
+#point_works section{
+	margin:0 0 20px 0;
+	padding:16px 20px 7px;
+	border:1px solid #cccccc;
+	border-top:4px solid #aa2222;
+}
+
+#point_works h2{
+	margin:0 0 20px 0;
+	padding:0 0 10px 38px;
+	background:url(../../img/common/icon.png) no-repeat left top;
+	-webkit-background-size:30px;
+	-moz-background-size:30px;
+	background-size:30px;
+	border-bottom:1px solid #b6b6b6;
+	font-size:184.6%;
+	font-weight:bold;
+	line-height:30px;
+}
+
+#point_works ul li{
+	float:left;
+	width:349px;
+	padding:0 10px 14px 26px;
+	background:url(../../img/common/list.png) no-repeat 10px 8px;
+	font-size:123.1%;
+	line-height:1.4;
+}
+
+
+/* ========================================================================
+	イモビライザーチェック						[ /immo/toyota.html ]
+	ブランクキー情報							[ /immo/blank/toyota.html ]
+======================================================================== */
+#immo{
+	padding:0 0 40px 0;
+}
+
+#immo section{
+	padding:0 0 10px 0;
+}
+
+#immo h2.title{
+	margin-bottom:20px;
+}
+
+#immo p{
+	padding:0 0 8px 0;
+	font-size:123.1%;
+	line-height:1.875;
+}
+
+#immo p.bnr{
+	padding:0;
+}
+
+#immo table{
+	margin:0 0 20px 0;
+	font-size:107.7%;
+}
+
+#immo table th{
+	padding:12px 14px;
+	background:#edfade;
+	border:1px solid #cccccc;
+	line-height:1.4;
+}
+
+#immo table td:last-of-type{
+	text-align:center;
+}
+
+#immo table th:first-of-type,
+#immo table td:first-of-type{
+	text-align:left;
+}
+
+#immo table td{
+	padding:12px 14px;
+	border:1px solid #cccccc;
+	line-height:1.4;
+}
+
+
+/* ----------------------------------------
+	blank
+---------------------------------------- */
+#immo .blank caption{
+	padding:0 0 14px 0;
+	text-align:left;
+	font-size:128.6%;
+	font-weight:bold;
+}
+
+#immo .blank th,
+#immo .blank td,
+#immo .blank td:last-of-type{
+	padding:10px 12px;
+	text-align:left;
+}
+
+
+/* ========================================================================
+	オフィシャルブログ（一覧・詳細）			[ /blog/ ]
+	オフィシャルブログ画像一覧					[ /blog/imglist/ ]
+======================================================================== */
+#blog{
+	padding:0 0 10px 0;
+}
+
+#blog .cv{
+	padding:0 0 30px 0;
+}
+
+
+/* ----------------------------------------
+	navi
+---------------------------------------- */
+#blog .navi{
+	padding:0 0 30px 0;
+	text-align:center;
+}
+
+#blog .navi a{
+	display:inline-block;
+	width:162px;
+	margin:0 29px;
+	padding:0 0 0 12px;
+	background:url(../../img/blog/arrow.png) no-repeat 12px center #aa2222;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	font-size:123.1%;
+	color:#ffffff;
+	line-height:44px;
+	text-decoration:none;
+}
+
+#blog .navi a.top,
+#blog .navi a.list,
+#blog .navi a.imglist{
+	margin:0 8px;
+}
+
+#blog .navi a.top{
+	background-image:url(../../img/blog/icon_top.png);
+	-webkit-background-size:18px;
+	-moz-background-size:18px;
+	background-size:18px;
+}
+
+#blog .navi a.list{
+	background-image:url(../../img/blog/icon_list.png);
+	-webkit-background-size:18px;
+	-moz-background-size:18px;
+	background-size:18px;
+}
+
+#blog .navi a.imglist{
+	background-image:url(../../img/blog/icon_imglist.png);
+	-webkit-background-size:18px;
+	-moz-background-size:18px;
+	background-size:18px;
+}
+
+
+/* ----------------------------------------
+	info
+---------------------------------------- */
+#blog .info{
+	font-size:107.7%;
+	font-weight:bold;
+}
+
+#blog .info time{
+	padding:0 16px 0 0;
+}
+
+#blog .info span{
+	display:inline-block;
+	margin:0 5px 5px 0;
+	padding:0 5px;
+	background:#72bb3c;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	color:#ffffff;
+	line-height:24px
+}
+
+
+/* ----------------------------------------
+	sns
+---------------------------------------- */
+#blog .sns{
+	padding:0 0 20px 0;
+	text-align:right;
+}
+
+#blog .sns li{
+	display:inline-block;
+	margin:0 0 0 2px;
+	vertical-align:middle;
+}
+
+
+/* ----------------------------------------
+	list（一覧）
+---------------------------------------- */
+#blog .list > li{
+	margin:0 0 30px 0;
+	padding:26px 26px 4px;
+	border:1px solid #cccccc;
+	border-top:4px solid #aa2222;
+}
+
+#blog .list h2{
+	padding:0 0 20px 36px;
+	background:url(../../img/blog/bg_h2.png) no-repeat left top;
+	font-size:200%;
+	font-weight:bold;
+	line-height:30px;
+}
+
+#blog .list h2 a{ text-decoration:underline; }
+#blog .list h2 a:hover{ text-decoration:none; }
+
+#blog .list .info{
+	padding:0 0 10px 0;
+}
+
+#blog .list p{
+	padding:0 0 20px 0;
+	font-size:123.1%;
+	line-height:1.875;
+}
+
+
+/* ----------------------------------------
+	detail（詳細）
+---------------------------------------- */
+#blog .detail{
+	margin:0 0 30px 0;
+	padding:0 0 4px 0;
+	border:1px solid #cccccc;
+	border-top:4px solid #aa2222;
+}
+
+#blog .detail h2{
+	margin:0 26px;
+	padding:0 0 20px 36px;
+	background:url(../../img/blog/bg_h2.png) no-repeat left top;
+	font-size:200%;
+	font-weight:bold;
+	line-height:30px;
+}
+
+#blog .detail .info{
+	margin:0 0 20px 0;
+	padding:16px 26px 11px;
+	background:#f6f6f6;
+}
+
+#blog .detail .sns{
+	padding-right:26px;
+}
+
+#blog .detail .entry{
+	padding:0 26px;
+}
+
+#blog .detail .entry p{
+	padding:0 0 20px 0;
+	font-size:123.1%;
+	line-height:1.875;
+}
+
+#blog .detail .entry p.image{
+	text-align:center;
+}
+
+
+/* ----------------------------------------
+	new（詳細・最近の記事）
+---------------------------------------- */
+#blog .new{
+	margin:0 0 30px 0;
+	padding:18px 0 14px 0;
+	border:1px solid #cccccc;
+	border-top:4px solid #aa2222;
+}
+
+#blog .new h2{
+	padding:0 0 18px 19px;
+	font-size:153.8%;
+	font-weight:bold;
+}
+
+#blog .new ul li{
+	float:left;
+	width:160px;
+	margin:0 0 0 20px;
+	font-size:107.7%;
+	line-height:1.714;
+}
+
+#blog .new ul li:first-child{
+	margin-left:19px;
+}
+
+#blog .new ul li a{
+	display:block;
+}
+
+#blog .new ul li a > span{
+	display:table-cell;
+	width:160px;
+	height:160px;
+	border:1px solid #d8d8d8;
+	text-align:center;
+	vertical-align:middle;
+}
+
+#blog .new ul li time{
+	display:block;
+	padding:10px 0 0 0;
+}
+
+
+/* ----------------------------------------
+	imglist（画像一覧）
+---------------------------------------- */
+#blog .imglist h2{
+	font-size:138.4%;
+	font-weight:bold;
+}
+
+#blog .imglist ul li{
+	float:left;
+}
+
+#blog .imglist ul li a{
+	display:block;
+}
+
+#blog .imglist .inline_block{
+	display:none;
+}
+
+
+/* year
+---------------------------------------- */
+#blog .year{
+	padding:0 0 20px 0;
+}
+
+#blog .year h2{
+	padding:0 0 14px 0;
+}
+
+#blog .year ul li a{
+	width:48px;
+	margin:0 4px;
+	background:#aa2222;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	text-align:center;
+	font-size:123.1%;
+	color:#ffffff;
+	line-height:40px;
+	text-decoration:none;
+}
+
+#blog .year ul li.prev a{
+	width:24px;
+	margin:0 10px 0 0;
+	background:#ffffff;
+}
+
+#blog .year ul li.next a{
+	width:24px;
+	margin:0 0 0 10px;
+	background:#ffffff;
+}
+
+#blog .year ul li img{
+	vertical-align:middle;
+}
+
+
+/* month
+---------------------------------------- */
+#blog .month{
+	padding:20px 0 10px 0;
+}
+
+#blog .month h2{
+	padding:0 0 24px 0;
+}
+
+#blog .month ul li{
+	width:230px;
+	margin:0 25px 30px 0;
+	font-size:107.7%;
+	line-height:1.714;
+}
+
+#blog .month ul li:nth-child(3n){
+	margin-right:0;
+}
+
+#blog .month ul li span.image{
+	display:table-cell;
+	width:230px;
+	height:230px;
+	border:1px solid #d8d8d8;
+	text-align:center;
+	vertical-align:middle;
+}
+
+#blog .month ul li time{
+	display:block;
+	padding:5px 0 0 0;
+}
+
+
+/* ========================================================================
+	中山貴之の防犯コラム						[ /security/ ]
+======================================================================== */
+#security{
+	padding:0 0 20px 0;
+}
+
+#security h2.title{
+	margin-bottom:20px;
+}
+
+#security .security h2,
+#security .navi h3{
+	padding:0 0 0 22px;
+	background:url(../../img/security/bg_h_pc.png) repeat-x center;
+	border:1px solid #c51717;
+	-webkit-box-shadow:inset 0px 0px 1px rgba(255,255,255,1);
+	-moz-box-shadow:inset 0px 0px 1px rgba(255,255,255,1);
+	box-shadow:inset 0px 0px 1px rgba(255,255,255,1);
+	font-size:184.6%;
+	font-weight:bold;
+	color:#ffffff;
+	line-height:66px;
+}
+
+
+/* ----------------------------------------
+	profile
+---------------------------------------- */
+#security .profile{
+	margin:0 0 40px 0;
+	padding:20px;
+	background:#ffe9e9;
+}
+
+#security .profile .column{
+	padding:20px;
+	background:#ffffff;
+	border:2px solid #f2d8d8;
+}
+
+#security .profile h2{
+	overflow:hidden;
+	margin:0 0 15px 0;
+	padding:12px 0 15px 0;
+	border-bottom:1px solid #cccccc;
+	font-size:230.8%;
+}
+
+#security .profile h2 span{
+	font-size:46.66%;
+}
+
+#security .profile p{
+	padding:0 0 14px 0;
+	font-size:123.1%;
+	line-height:1.875;
+}
+
+#security .profile p:last-of-type{
+	padding:0;
+}
+
+#security .profile p.image{
+	float:left;
+	padding:0 20px 0 0;
+}
+
+
+/* ----------------------------------------
+	navi
+---------------------------------------- */
+#security .navi section{
+	margin:0 0 20px 0;
+}
+
+#security .navi ul{
+	padding:20px;
+	background:#ffe9e9;
+}
+
+#security .navi ul li{
+	padding:0 20px;
+	background:#ffffff;
+	border-left:2px solid #f2d8d8;
+	border-right:2px solid #f2d8d8;
+}
+
+#security .navi ul li:first-child{
+	border-top:2px solid #f2d8d8;
+}
+
+#security .navi ul li:last-child{
+	border-bottom:2px solid #f2d8d8;
+}
+
+#security .navi ul li a{
+	display:block;
+	padding:0 0 0 22px;
+	background:url(../../img/common/arrow_04.png) no-repeat left center;
+	border-bottom:1px dotted #000000;
+	font-size:123.1%;
+	line-height:56px;
+	text-decoration:underline;
+}
+
+#security .navi ul li a:hover{
+	text-decoration:none;
+}
+
+#security .navi ul li:last-child a{
+	border:none;
+}
+
+
+/* ----------------------------------------
+	security
+---------------------------------------- */
+#security .security{
+	margin:0 0 20px 0;
+	padding:0 0 20px 0;
+	background:#ffe9e9;
+}
+
+#security .security section{
+	overflow:hidden;
+	margin:20px 20px 0;
+	padding:15px 20px 20px;
+	background:#ffffff;
+	border:2px solid #f2d8d8;
+}
+
+#security .security h3{
+	margin:0 0 20px 0;
+	padding:0 0 15px 0;
+	border-bottom:1px dotted #000000;
+	font-size:153.8%;
+	font-weight:bold;
+	line-height:27px;
+}
+
+#security .security h3::before{
+	content:"";
+	padding:0 8px 0 0;
+	border-left:4px solid #e50315;
+}
+
+#security .security p{
+	padding:0 0 18px 0;
+	font-size:123.1%;
+	line-height:1.875;
+}
+
+#security .security p.image{
+	float:right;
+	padding:0 0 20px 20px;
+}
+
+
+/* paging
+---------------------------------------- */
+#security .paging{
+	display:table;
+	width:100%;
+	margin:15px 0 20px 0;
+	background:#f2f2f2;
+	text-align:center;
+	font-size:123.1%;
+	line-height:1.4;
+}
+
+#security .paging a{
+	display:table-cell;
+	width:50%;
+	height:80px;
+	vertical-align:middle;
+	background:url(../../img/security/arrow_prev.png) no-repeat 14px center;
+	border-right:1px dotted #888888;
+}
+
+#security .paging a.next{
+	background:url(../../img/security/arrow_next.png) no-repeat 298px center;
+	border:none;
+}
+
+#security .paging a span{
+	display:inline-block;
+	text-align:left;
+}
+
+#security .paging a:hover span{
+	text-decoration:underline;
+}
+
+
+/* relation
+---------------------------------------- */
+#security .relation{
+	border:1px solid #cccccc;
+}
+
+#security .relation h3{
+	margin:0;
+	padding:0 0 0 52px;
+	background:url(../../img/security/bg_relation.png) no-repeat 14px center #ffe9e9;
+	border-bottom:1px solid #cccccc;
+	line-height:60px;
+}
+
+#security .relation h3::before{
+	padding:0;
+	border:none;
+}
+
+#security .relation ul li a{
+	display:block;
+	padding:0 0 0 42px;
+	background:url(../../img/common/arrow_04.png) no-repeat 20px center;
+	border-top:1px solid #cccccc;
+	font-size:123.1%;
+	line-height:56px;
+	text-decoration:underline;
+}
+
+#security .relation ul li:first-child a{
+	border:none;
+}
+
+#security .relation ul li a:hover{
+	text-decoration:none;
+}
+
+
+/* ========================================================================
+	セキュリティアドバイザーの紹介				[ /adviser/ ]
+======================================================================== */
+#adviser{
+	padding:0 0 27px 0;
+}
+
+
+/* ----------------------------------------
+	profile
+---------------------------------------- */
+#adviser .profile{
+	margin:0 0 40px 0;
+	padding:20px;
+	background:#ffe9e9;
+}
+
+#adviser .profile .column{
+	padding:20px;
+	background:#ffffff;
+	border:2px solid #f2d8d8;
+}
+
+#adviser .profile h2{
+	overflow:hidden;
+	padding:12px 0 15px 0;
+	font-size:230.8%;
+}
+
+#adviser .profile h2 span{
+	font-size:46.66%;
+}
+
+#adviser .profile p.image{
+	float:left;
+	padding:0 20px 0 0;
+}
+
+#adviser .profile dl{
+	overflow:hidden;
+}
+
+#adviser .profile dl dt{
+	margin:0 0 8px 0;
+	padding:6px;
+	background:#ffe9e9;
+	font-size:138.4%;
+	font-weight:bold;
+	color:#b42e2e;
+	line-height:26px;
+}
+
+#adviser .profile dl dt::before{
+	content:"";
+	display:block;
+	float:left;
+	height:26px;
+	margin:0 8px 0 0;
+	border-left:4px solid #c90000;
+}
+
+#adviser .profile dl dd{
+	padding:0 0 18px 0;
+	font-size:123.1%;
+	line-height:1.875;
+}
+
+#adviser .profile dl dd:last-of-type{
+	padding:0;
+}
+
+
+/* ----------------------------------------
+	section
+---------------------------------------- */
+#adviser .section{
+	padding:0 0 13px 0;
+}
+
+#adviser .section h2{
+	margin-bottom:14px;
+}
+
+#adviser .section p{
+	padding:0 0 20px 0;
+	font-size:123.1%;
+	line-height:1.875;
+}
+
+#adviser .section ul li{
+	padding:0 0 0 18px;
+	background:url(../../img/common/list.png) no-repeat 2px center;
+	font-size:107.7%;
+	line-height:2;
+}
+
+
+/* ========================================================================
+	鍵について 鍵の仕組み						[ /keyabout/ ]
+======================================================================== */
+#keyabout h2.title{
+	margin-bottom:20px;
+}
+
+#keyabout p{
+	padding:0 0 20px 0;
+	font-size:123.1%;
+	line-height:1.875;
+}
+
+#keyabout p.image{
+	float:right;
+	padding:0 0 30px 30px;
+}
+
+
+/* ----------------------------------------
+	outline
+---------------------------------------- */
+#keyabout .outline{
+	overflow:hidden;
+	padding:0 0 40px 0;
+}
+
+#keyabout table th{
+	width:150px;
+	padding:8px 14px 8px 8px;
+	background:#edfade;
+	border:1px solid #cccccc;
+	text-align:left;
+	vertical-align:top;
+	font-size:107.7%;
+	line-height:2;
+}
+
+#keyabout table th::before{
+	content:"";
+	display:block;
+	float:left;
+	height:22px;
+	margin:3px 8px 0 0;
+	border-left:3px solid #54aa15;
+}
+
+#keyabout table td{
+	padding:8px 18px;
+	border:1px solid #cccccc;
+	font-size:107.7%;
+	line-height:2;
+}
+
+
+/* ----------------------------------------
+	about
+---------------------------------------- */
+#keyabout .about{
+	overflow:hidden;
+	padding:0 0 20px 0;
+}
+
+#keyabout .about h2.title{
+	margin:0 0 20px 0;
+	padding:0 0 0 53px;
+	background:url(../../img/common/icon.png) no-repeat 15px center #ffe9e9;
+	-webkit-background-size:30px;
+	-moz-background-size:30px;
+	background-size:30px;
+	border:none;
+	font-size:153.8%;
+	line-height:60px;
+}
+
+
+/* ----------------------------------------
+	mokuji
+---------------------------------------- */
+#keyabout .mokuji{
+	padding:0 0 10px 0;
+}
+
+#keyabout .mokuji > section{
+	margin:0 0 30px 0;
+	padding:14px 13px 3px;
+	background:#ffe9e9;
+	border:2px solid #f2d8d8;
+}
+
+#keyabout .mokuji section section{
+	overflow:hidden;
+	margin:0 0 10px 0;
+	padding:16px 20px 12px;
+	background:#ffffff;
+	border:1px solid #f2d8d8;
+}
+
+#keyabout .mokuji h3{
+	margin:0 0 16px 0;
+	padding:0 0 0 38px;
+	background:url(../../img/common/icon.png) no-repeat left top;
+	-webkit-background-size:30px;
+	-moz-background-size:30px;
+	background-size:30px;
+	font-size:153.8%;
+	font-weight:bold;
+	line-height:30px;
+}
+
+#keyabout .mokuji h4{
+	margin:0 0 15px 0;
+	padding:0 0 12px 21px;
+	background:url(../../img/common/arrow_04.png) no-repeat left 4px;
+	border-bottom:1px dotted #cccccc;
+	font-size:153.8%;
+	font-weight:bold;
+	color:#c12626;
+}
+
+#keyabout .mokuji p{
+	padding:0 0 12px 0;
+}
+
+#keyabout .mokuji p.image{
+	padding:0 0 8px 20px;
+}
+
+#keyabout .mokuji ul li{
+	float:left;
+}
+
+#keyabout .mokuji ul li a{
+	display:block;
+	margin:0 8px 8px 0;
+	padding:0 10px 0 20px;
+	background:url(../../img/keyabout/arrow.png) no-repeat 9px center #f4f4f4;
+	-webkit-background-size:6px auto;
+	-moz-background-size:6px auto;
+	background-size:6px auto;
+	border:1px solid #c0c0c0;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	font-size:107.7%;
+	line-height:26px;
+	text-decoration:none;
+}
+
+/* ----------------------------------------
+	sekai
+---------------------------------------- */
+
+#keyabout .sekai {
+	margin:0 0 30px 0;
+	padding:14px 13px 3px;
+	background:#F4F4F4;
+	border:2px solid #c0c0c0;
+}
+#keyabout .sekai section{
+	overflow:hidden;
+	margin:0 0 10px 0;
+	padding:16px 10px 12px;
+	background:#ffffff;
+	border:1px solid #c0c0c0;
+}
+#keyabout .sekai h3{
+	margin:0 0 16px 0;
+	padding:0 0 0 38px;
+	background:url(../../img/common/icon.png) no-repeat left top;
+	-webkit-background-size:30px;
+	-moz-background-size:30px;
+	background-size:30px;
+	font-size:153.8%;
+	font-weight:bold;
+	line-height:30px;
+}
+
+#keyabout .sekai section div.box_in {
+	overflow:hidden;
+	float: left;
+	margin: 0 10px 5px;
+	width: 324px;
+}
+#keyabout .sekai section div.box_in h4 {
+	font-size:123.1%;
+	color:#c12626;
+	font-weight:bold;
+	border-bottom: 1px dotted #cccccc;
+	margin: 0 0 10px 0;
+	padding: 0 0 10px 0;
+}
+#keyabout .sekai section div.box_in p {
+	font-size: 107.7%;
+  	line-height: 26px;
+}
+#keyabout .sekai section div.box_in p.image {
+	float:right;
+}
+
+/* ========================================================================
+	鍵のよくあるご質問							[ /faq/ ]
+======================================================================== */
+#faq{
+	padding:0 0 20px 0;
+}
+
+#faq .navi h2,
+#faq .faq h2,
+#faq h3{
+	margin:0 0 15px 0;
+	padding:0 0 0 40px;
+	background:url(../../img/common/icon.png) no-repeat left top;
+	-webkit-background-size:30px;
+	-moz-background-size:30px;
+	background-size:30px;
+	font-size:153.8%;
+	line-height:30px;
+}
+
+#faq p{
+	overflow:hidden;
+	padding:0 0 50px 0;
+	font-size:123.1%;
+	line-height:1.875;
+}
+
+#faq p img{
+	float:right;
+	margin:0 0 0 60px;
+}
+
+#faq p.lead{
+	padding:0 0 10px 0;
+	font-size:153.8%;
+	font-weight:bold;
+	color:#c90000;
+}
+
+
+/* ----------------------------------------
+	navi
+---------------------------------------- */
+#faq .navi{
+	margin:0 0 20px 0;
+	padding:15px 20px 20px;
+	background:#ffe9e9;
+}
+
+#faq .navi ul{
+	background:#ffffff;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+}
+
+#faq .navi ul li a{
+	display:block;
+	padding:0 0 0 36px;
+	background:url(../../img/faq/arrow.png) no-repeat 20px center;
+	-webkit-background-size:4px auto;
+	-moz-background-size:4px auto;
+	background-size:4px auto;
+	border-top:1px solid #efd9d9;
+	font-size:123.1%;
+	line-height:39px;
+}
+
+#faq .navi ul li:first-child a{
+	border:none;
+}
+
+
+/* ----------------------------------------
+	faq
+---------------------------------------- */
+#faq .faq{
+	margin:0 0 30px 0;
+	padding:15px 20px 20px;
+	background:#ffe9e9;
+}
+
+#faq .faq .column{
+	margin:0 0 20px 0;
+	padding:28px 18px 24px;
+	background:#ffffff;
+}
+
+#faq .faq .column:nth-of-type(2){
+	margin:0;
+}
+
+#faq .faq p{
+	float:left;
+	width:232px;
+	margin:0 20px 0 0;
+	padding:0;
+}
+
+#faq .faq dl{
+	overflow:hidden;
+}
+
+#faq .faq dl dt{
+	margin:0 0 12px 0;
+	padding:0 0 12px 0;
+	border-bottom:1px solid #c6c6c6;
+	font-size:153.8%;
+	font-weight:bold;
+	color:#f96700;
+}
+
+#faq .faq .column:nth-of-type(2) dl dt{
+	color:#348117;
+}
+
+#faq .faq dl dd{
+	font-size:123.1%;
+	line-height:1.875;
+}
+
+
+/* ========================================================================
+	外溝キー									[ /works/01.html ]
+======================================================================== */
+#works{
+	padding:0 0 20px 0;
+}
+
+#works p{
+	overflow:hidden;
+	padding:0 0 34px 0;
+	font-size:123.1%;
+	line-height:1.8;
+}
+
+#works p img{
+	float:right;
+	margin:0 0 0 30px;
+}
+
+#works p span{
+	display:block;
+	overflow:hidden;
+}
+
+#works p.lead{
+	padding:0 0 8px 0;
+	font-size:153.8%;
+	font-weight:bold;
+	color:#c90000;
+}
+
+
+/* ----------------------------------------
+	box
+---------------------------------------- */
+#works .box{
+	margin:0 0 20px 0;
+	padding:13px;
+	background:#ffe9e9;
+	border:2px solid #f2d8d8;
+}
+
+#works .box h3{
+	padding:4px 0 10px 0;
+	text-align:center;
+	font-size:184.6%;
+	font-weight:bold;
+}
+
+#works .box p{
+	padding:14px 18px;
+	background:#ffffff;
+	border:1px solid #f2d8d8;
+	font-size:107.7%;
+}
+
+
+/* ========================================================================
+	鍵っ子クイズ								[ /keyquiz/ ]
+======================================================================== */
+#keyquiz{
+	position:relative;
+	padding:0 0 60px 0;
+}
+
+#keyquiz p.btn{
+	padding:18px 0 0 0;
+	text-align:center;
+}
+
+#keyquiz ul{
+	position:absolute;
+	top:201px;
+	left:35px;
+}
+
+#keyquiz ul li{
+	float:left;
+}
+
+#keyquiz ul li:nth-child(2){
+	padding:0 42px 0 23px
+}
+
+/* ========================================================================
+	R追加分								
+======================================================================== */
+
+td span .c1{
+	width:10% !important;
+	float:left !important; }
+	
+#immo nav ul li{
+	font-weight: bold;
+	padding-top: 15px;
+	}
+#immo nav ul li ul li{
+	font-weight: normal;
+	padding-left: 20px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	}
+#check .check .title{
+		margin: 0;
+		padding: 6px 0 7px;
+		
+		font-weight: bold;
+		color: #000;
+		font-size: 14px;
+		text-align: center;
+}
+
+#check .check form select{
+		margin: 0;
+		padding: 5px 0;
+		
+		width: 350px;
+		
+		font-size: 14px;
+		
+		line-height: 180%;
+}
+#check{
+		clear: both;
+		zoom: 1;
+
+		margin: 0;
+		padding: 20px 10px 12px;
+		
+		background: #F2F2F2 url(../img/immobiliser/bg00.jpg) repeat-x left 0;
+}
+
+#check:after{
+		clear:both;
+		content:" ";
+		display:block;
+		height:0;
+		visibility:hidden;
+}
+
+#check p{
+		margin: 0 0 15px;
+		padding: 0;
+		font-size: 14px;
+		line-height: 160%;
+		text-align: center;
+}
+
+#check p img{
+		display: inline;
+		margin: 0 0 7px;	
+		vertical-align: bottom;
+}
+
+#check .check{
+		display: block;		
+		float: left;
+		margin: 0 5px;
+		padding: 5px;
+		width: 350px;
+		height: 57px;
+}
+
+#trademark_list::after {
+    clear: both;
+    content: " ";aa
+    display: block;
+    height: 0;
+}
+#trademark_list {
+    margin: 0 0 10px;
+    padding: 0;
+}
+#trademark_list li {
+    float: left;
+    margin: 0 12px 16px 0;
+    padding: 0;
+}
+
+/* ========================================================================
+	R追加分	各都市_動画ページ
+======================================================================== */
+#area_movie h3{
+	font-weight: bold;
+	font-size: 19px !important;
+	padding-bottom: 8px;
+	}
+#area_movie .block{
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin-top: 27px;
+	margin-bottom: 27px;
+	background-color: #FFFFF4;
+	}
+
+#area_movie p{
+	font-size: 16px !important;
+	line-height: 1.6em;	
+	letter-spacing: 0.2em !important;
+	}
+	
+/* ========================================================================
+	Rセキュリティ追加分	ニュースページ
+======================================================================== */
+.news_p p{
+	line-height: 1.7em;	
+	padding-bottom: 20px;
+	}
+.news_p p br{
+	padding-bottom: 20px;	
+	}
+}
+
